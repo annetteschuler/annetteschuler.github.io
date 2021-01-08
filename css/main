@@ -9,7 +9,7 @@ header, nav, main, footer {
     }
 
     header {
-        background-color: teal;
+        background-color: #008080;
         color: white;
         font-family: 'Arial', sans-serif; 
         font-weight: 800;
@@ -24,7 +24,7 @@ header, nav, main, footer {
     }
 
     footer {
-        background-color: teal;
+        background-color: #008080;
         color: white;
         text-align: center;
         padding: 1.5rem;
