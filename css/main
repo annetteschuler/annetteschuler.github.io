@@ -11,7 +11,8 @@ header, nav, main, footer {
     header {
         background-color: teal;
         color: white;
-        font: ariel, bold;
+        font-family: 'Rubik', sans-serif; 
+        font-weight: 800;
         text-align: center;
         padding: 1.5rem;  
     }
@@ -21,9 +22,10 @@ header, nav, main, footer {
         margin: 10px;
         border: 1 px solid black;
     }
+
     footer {
         background-color: teal;
         color: white;
         text-align: center;
-        padding: 1 rem;
+        padding: 1.5 rem;
     }
