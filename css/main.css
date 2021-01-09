@@ -20,7 +20,6 @@ header, nav, main, footer {
     img {
         max-width: 150px;
         float:  right;
-        margin-top 3px;
         border: 1px solid black;
     }
 
