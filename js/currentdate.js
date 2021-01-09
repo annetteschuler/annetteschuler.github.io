@@ -30,4 +30,3 @@
     const currentdate = dayName + "," + todaysdate.getDate() + " " + monthName + "," + todaysdate.getFullYear();
 
     document.getElementById('currentdate').textContent = currentdate;
-  
