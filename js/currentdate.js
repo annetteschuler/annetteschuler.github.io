@@ -56,7 +56,7 @@
     const dayName = dayNames[todaysdate.getDay()];
     const monthName = months[todaysdate.getMonth()];
     const hours = hours[date.getHours()]; 
-    const minute = minutes[date.getMinutes()];
+    const minutes = minutes[date.getMinutes()];
     const seconds = seconds[date.getSeconds()];
     const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear() + " at " + hours + ":" minutes +":"+ seconds;
 
