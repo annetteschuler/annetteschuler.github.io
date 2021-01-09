@@ -58,6 +58,6 @@
     const hours = hours[date.getHours()]; 
     const minute = minutes[date.getMinutes()];
     const seconds = seconds[date.getSeconds()];
-    const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear() + " at " + hours + ":" minutes +":" seconds;
+    const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear() + " at " + hours + ":" minutes +":"+ seconds;
 
     document.getElementById('currentdate').textContent = currentdate;
