@@ -18,7 +18,7 @@ header, nav, main, footer {
     }
 
     img {
-        float: right;
+        float: top, right;
         margin: 10px;
         border: 1px solid black;
     }
