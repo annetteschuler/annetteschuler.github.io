@@ -55,9 +55,10 @@
     const todaysdate = new Date();
     const dayName = dayNames[todaysdate.getDay()];
     const monthName = months[todaysdate.getMonth()];
-    const hours = hours[date.getHours()]; 
-    const minutes = minutes[date.getMinutes()];
-    const seconds = seconds[date.getSeconds()];
-    const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear() + " at " + hours + ":" minutes +":"+ seconds;
+    const hoursName = hours[date.getHours()]; 
+    const minutesName = minutes[date.getMinutes()];
+    const secondsName = seconds[date.getSeconds()];
+    const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear() 
+                        + " at " + hoursName + ":" + minutesName +":"+ secondsName;
 
     document.getElementById('currentdate').textContent = currentdate;
