@@ -31,4 +31,3 @@
 
     document.getElementById('currentdate').textContent = currentdate;
   
-]
