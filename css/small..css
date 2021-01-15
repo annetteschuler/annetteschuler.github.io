@@ -8,6 +8,12 @@ h1 (
     margin: 0.15rem;
 )    
 
+h2 {
+    font-size: 1rem;
+    /* margin-bottom: 0.5rem; */
+
+}
+
 header, nav, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
@@ -23,11 +29,7 @@ header, nav, main, footer {
         padding: 1.5rem;  
     }
 
-    h2 {
-        font-size: 1rem;
-    
-    }
-
+  
 img {
     float: ;
     max-width: 150px;
