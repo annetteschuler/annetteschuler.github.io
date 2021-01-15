@@ -13,6 +13,7 @@ header, nav, main, footer {
         color: white;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
+        font-size: 2.5em;
         text-align: center;
         padding: 1.5rem;  
     }
@@ -23,7 +24,7 @@ img {
     margin: 10px;
     border: 1px solid black;
    }
-   
+
 footer {
 background-color: #008080;
 color: white;
