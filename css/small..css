@@ -3,10 +3,20 @@ body {
     line-height: 1.5;
     font-family: 'Playfair Display', serif;
 
+h1 (
+    font-size:1.5em;
+    margin: 0.15rem;
+)    
+
 header, nav, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
     }
+
+h2 {
+    font-size: 1rem;
+
+}
 
     header {
         background-color: #008080;
