@@ -1,0 +1,9 @@
+@media (min-width: 600-768px) {
+    Nav ul {
+    Display: flex;
+    }
+    Nav ul li {
+    Flex: 1 auto;
+    }
+    }
+    
