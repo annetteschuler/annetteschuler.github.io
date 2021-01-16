@@ -2,6 +2,7 @@ body{
     font-size3: 10px;
     line-height: 1.5;
     font-family: 'Playfair Display', serif;
+    margin-right: auto;
   
 }
 header, nav, main, footer {
