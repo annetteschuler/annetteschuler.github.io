@@ -1,9 +1,7 @@
 @media (min-width: 600-768px) {
-    Nav ul {
-    Display: flex;
-    }
-    Nav ul li {
-    Flex: 1 auto;
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     }
     
