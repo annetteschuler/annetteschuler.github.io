@@ -31,9 +31,9 @@ section {
     background-color: #F0FFFF;
     border-style: solid;
     border-radius: 16px;
-    max-width: 400px;
+    max-width: 375px;
     padding: 10px;
-    display: block;
+    /* display: block; */
     }
 
 .visual {
