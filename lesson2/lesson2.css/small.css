@@ -24,6 +24,16 @@ header {
 /* h2 { */
     /* font-size: 1rem; */
 /* } */
+/* section { */
+    /* display: block; */
+/* } */
+section {
+    background-color: #F0FFFF;
+    border-style: solid;
+    border-radius: 16px;
+    max-width: 375px;
+    padding: 10px;
+    }
 
 .visual {
     border-radius: 16px;
@@ -37,6 +47,11 @@ header {
     border-radius: 16px;
 }
 
+h3 {
+    background-color: #008080;
+    color: white;
+
+}
 main {
     display: grid;
     grid-template-columns: 1fr;
