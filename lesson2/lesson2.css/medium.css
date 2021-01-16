@@ -1,12 +1,13 @@
 @media (min-width: 800px) {
 
-header z[
+header {
     font-size: 2rem;
-]
+}
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         
     }
+
     }
     
