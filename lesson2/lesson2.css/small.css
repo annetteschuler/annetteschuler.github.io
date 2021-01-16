@@ -34,6 +34,7 @@ section {
     border-radius: 16px;
     max-width: 375px;
     padding: 10px;
+    margin-right: auto;
     /* margin: auto; */
     /* display: block; */
     }
