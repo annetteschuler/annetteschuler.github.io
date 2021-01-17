@@ -63,6 +63,7 @@ h4 {
 main {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-columns: minmax();
 }
 
 }
