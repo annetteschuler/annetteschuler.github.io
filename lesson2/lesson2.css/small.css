@@ -40,21 +40,13 @@ section {
     display: block;
     }
     
+* 
 
- .visual { 
-   border-radius: 16px;
- }
-
- .centered {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+/* .visual {
+    border-radius: 16px;
 }
 
-/*.thirds {
+.thirds {
     border-radius: 16px;
 }
 
