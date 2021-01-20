@@ -66,6 +66,8 @@ main {
     display: grid;
     /* grid-template-columns: minmax(); */
     grid-template-columns: 1fr;
+    row-gap: 5rem;
+    
    
 }
 
