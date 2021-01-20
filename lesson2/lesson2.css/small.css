@@ -5,7 +5,7 @@ body{
     margin-right: auto;
   
 }
-header, nav, main, footer {
+header, nav, main {
     margin: 1.25rem auto;
     max-width: 1430px;
     }
@@ -35,11 +35,9 @@ section {
 /* .visual {
     border-radius: 16px;
 }
-
 .thirds {
     border-radius: 16px;
 }
-
 .white {
     border-radius: 16px;
 } */
@@ -59,5 +57,12 @@ main {
     row-gap: 5rem;
  }
 
+ footer {
+    background-color: #008080;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    }
 
 
