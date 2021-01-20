@@ -9,8 +9,8 @@ header {
                 
     }
     section {
-        grid-columns: 1 / 2;
-        grid-template-columns: minmax();
+        grid-column: 1 / 2; 
+        /* grid-template-columns: minmax(); */
         gap: 100em;
     }
 
