@@ -35,22 +35,32 @@ section {
     border-radius: 16px;
     max-width: 375px;
     padding: 10px;
-    margin-right: auto;
+    /* margin-right: auto; */
     /* margin: auto; */
-    /* display: block; */
+    display: block;
     }
+    
 
-.visual {
-    border-radius: 16px;
+ .visual { 
+   border-radius: 16px;
+ }
+
+ .centered {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
-.thirds {
+/*.thirds {
     border-radius: 16px;
 }
 
 .white {
     border-radius: 16px;
-}
+} */
 
 h3 {
     background-color: #008080;
