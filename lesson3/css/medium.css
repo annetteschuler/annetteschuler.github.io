@@ -23,17 +23,17 @@ nav a {
 font-size: 1rem;
 }
 main {
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 }
 article:nth-child(3) {
 grid-column: span 2;
 }
-main picture {
+/* main picture {
 display: block;
 }
 main picture img {
 width: 100%;
 height: auto;
 border: 1px solid #bbb;
-}
+} */
 }
