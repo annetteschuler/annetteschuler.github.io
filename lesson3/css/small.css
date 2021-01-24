@@ -35,7 +35,7 @@ footer {
 h1 {
   font-size: 2rem;
 }
-h2   {
+h3   {
    color: #083d77;
    font-family: "Mountains of Christmas", cursive;
    font-size: 1.5rem;
@@ -48,11 +48,15 @@ h2   {
   }
 
   nav ul {
-  background-color: #f4d35eff;
+  background-color: #f4d35eff; 
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+nav ul li {
+  padding: 15px;
+  flex: 1 1 auto; /*nav buttons span full width*/
 }
 
 nav ul li a {
@@ -69,12 +73,13 @@ nav a:hover {
   background-color: #ebebd3ff; 
     color:  #f95738ff;
     
-}
+ }
 .active {
-    background-color: #f4d35eff;
-      color: #083d77ff;
+    background-color:  #f95738ff;
+      color: #ebebd3ff; 
+      height: auto;
 }
-a.active {
+.active a:hover {
   background-color: #f95738ff;
   color: #083d77ff;
 }
