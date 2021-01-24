@@ -71,7 +71,7 @@ nav a:hover {
     
 }
 .active {
-    background-color: #f95738ff;
+    background-color: #f4d35eff;
       color: #083d77ff;
 }
 a.active {
@@ -96,13 +96,8 @@ main picture {
   margin: 0.5rem;
 }
 img {
-    max-width: 300px;
+    max-width: 200px;
 }
-
-.image color {
-   max-width: auto;
-}
-/* should I call the class img.color instead? */
 
 table, td, th {
   border: 1px solid black;
