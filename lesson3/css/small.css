@@ -85,7 +85,7 @@ nav a:hover {
 
 main {
   display: grid;
-  grid-template-areas: 1fr;
+  grid-template-areas: 1;
   font-size: 0.8rem;
 }
 main article {
