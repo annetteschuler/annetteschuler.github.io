@@ -54,7 +54,7 @@ nav ul {
   box-sizing: border-box;
 }
 nav ul li {
-  padding: 15px;
+  padding: 0px;
   flex: 1 1 auto; /*nav buttons span full width*/
 }
 
