@@ -1,0 +1,84 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+/* * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  } */
+
+body {
+    display: block;
+    background-color: #ebebd3ff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+header { 
+    background-color: #083d77ff;
+    color: #ebebd3ff;
+    font-family: "Mountains of Christmas", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 80px;
+    height: auto;
+}
+
+nav button {
+  margin: .2rem 2%;
+  /* background-color: transparent; */
+  border: none;
+  font-size: 1.6rem;
+  color: #083d77ff;
+}
+/* moves, takes off box, lgr and gray  */
+nav {
+  background-color: #f4d35e;
+  font-family: Montserrat, sans-serif;
+}
+nav ul { 
+  list-style-type: none; 
+    padding: 0;
+    margin: 0;
+ } 
+/* removes dots, moves text left and up */
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+/*   removes underlining */
+  color: #083d77ff;
+  /* changes text names to blue */
+  border-top: 1px solid rgba (0,0,0,0.5);
+/*     the last number says percent black */
+}
+/* to make clickable, spread out */
+nav ul li.active a{background-color: #f95738ff;
+color: #ebebd3ff;}
+nav ul li a:hover {
+  background-color: #ee964bff;
+ }
+nav ul.hide {display: none;}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* add this so you don't lose color when it gets big */
+h2 {
+  font-family: "Mountains of Christmas", cursive;  
+
+}
+.contentbox {
+    background-color: #f95738ff
+    display: block;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    color: #083d77ff;
+    font-family: 'Montserrat', sans-serif;
+}
+}
