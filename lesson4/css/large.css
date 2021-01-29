@@ -13,5 +13,9 @@ motto {
 
     nav ul li a {padding: .6rem 1rem;}
   /*   make nav bar bigger */
+  .contentbox {
+    background-color:  #f95738ff; 
+  
+}
   
   } /*end large */

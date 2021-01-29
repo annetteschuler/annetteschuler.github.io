@@ -51,5 +51,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff496', end
       padding: .8rem 1rem;}
     /*   this fixes the style of the nav bar */
     } 
-    
+    .contentbox {
+      background-color: #ee964bff;
+      display: block;
+      margin: 10px;
+      border: 1px solid black;
+      padding: 15px;
+      color: #ebebd3ff;
+      font-family: 'Montserrat', sans-serif;
     /* 64em is also 1028px when basefont is 16px */
