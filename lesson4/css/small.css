@@ -61,6 +61,7 @@ nav ul li a {
 /* to make clickable, spread out */
 nav ul li.active a{background-color: #f95738ff;
 color: #ebebd3ff;}
+
 nav ul li a:hover {
   background-color: #ee964bff;
  }
@@ -83,7 +84,7 @@ h2 {
     margin: 10px;
     border: 1px solid black;
     padding: 15px;
-    color: #083d77ff;
+    color: #ebebd3ff;
     font-family: 'Montserrat', sans-serif;
 }
 footer {
