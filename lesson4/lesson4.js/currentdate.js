@@ -1,4 +1,4 @@
-function currentdate() {
+function currentDate() {
     // day names array
  const dayNames = [
     "Sunday",
@@ -30,4 +30,5 @@ function currentdate() {
     const monthName = months[todaysdate.getMonth()];
     const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear();
     
-    document.getElementById("currentdate").textContent = currentdate;
+    
+    document.getElementById("currentDate").textContent = currentdate;
