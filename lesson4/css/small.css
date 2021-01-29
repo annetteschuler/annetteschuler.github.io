@@ -56,8 +56,7 @@ nav ul li a {
 /*   removes underlining */
   color: #083d77ff;
   /* changes text names to blue */
-  border-top: 1px solid rgba (0,0,0,0.5);
-/*     the last number says percent black */
+  border-top: 1px solid black;
 }
 /* to make clickable, spread out */
 nav ul li.active a{background-color: #f95738ff;
@@ -79,7 +78,7 @@ h2 {
 
 }
 .contentbox {
-    background-color: #f95738ff
+    background-color: #f95738ff;
     display: block;
     margin: 10px;
     border: 1px solid black;
@@ -88,8 +87,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 footer {
-  background-color: #083d77ff;
-    color: #ebebd3ff;
+  background-color: #f4d35e;
+  color: #083d77ff;
     padding: 5px;
 }
 }
