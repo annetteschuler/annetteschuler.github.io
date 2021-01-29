@@ -25,6 +25,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 header img{
     width: 80px;
     height: auto;
@@ -85,5 +86,10 @@ h2 {
     padding: 15px;
     color: #083d77ff;
     font-family: 'Montserrat', sans-serif;
+}
+footer {
+  background-color: #083d77ff;
+    color: #ebebd3ff;
+    padding: 5px;
 }
 }
