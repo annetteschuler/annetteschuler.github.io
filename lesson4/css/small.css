@@ -70,11 +70,11 @@ h2 {
 
 .contentbox {
     background-color: #f95738ff;
+    color: #ebebd3ff;
     display: block;
     margin: 10px;
     border: 1px solid black;
     padding: 15px;
-    color: #ebebd3ff;
     font-family: 'Montserrat', sans-serif;
 }
 footer {
