@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff496', end
       border-right: 1px solid rgba(0,0,0,0.3);
       padding: .8rem 1rem;}
     /*   this fixes the style of the nav bar */
-    } 
+    
     .contentbox {
       background-color: #ee964bff;
       display: block;
@@ -59,4 +59,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff496', end
       color: #ebebd3ff;
       font-family: 'Montserrat', sans-serif;
     }
+  }
     /* 64em is also 1028px when basefont is 16px */

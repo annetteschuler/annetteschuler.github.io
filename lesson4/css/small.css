@@ -69,8 +69,7 @@ h2 {
 }
 
 .contentbox {
-    background-color: pink;
-    /* background-color: #f95738ff; */
+    background-color: #f95738ff; 
     color: #ebebd3ff;
     display: block;
     margin: 10px;
