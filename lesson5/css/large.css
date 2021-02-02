@@ -1,0 +1,59 @@
+@media only screen and (min-width: 64rem) {
+    header {
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }  
+   header img {
+      width: 110px;
+    }
+    headings {
+      display: flex;
+      flex-direction: column;
+    }
+    .headings h1 {
+      font-size: 1.6rem;
+      margin: 0 0 17px;
+    }
+    .motto {
+      letter-spacing: 1pt;
+      margin-left: 20px;
+      font-size: .9rem;
+    }
+       
+    nav {
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff496+0,f4d35e+100 */
+  background: #fff496; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fff496 0%, #f4d35e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fff496 0%,#f4d35e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fff496 0%,#f4d35e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff496', endColorstr='#f4d35e',GradientType=0 ); 
+    /* delete two middle toggles, save one color and then darker version, copy and paste */
+      }
+            nav button {
+          display: none;
+      /*     get rid of button icon */
+        }
+        nav ul.hide {display: block;}
+      /*   restores nav bar after js changed it */
+        nav ul li {
+          margin-left: 2%;
+        }
+        nav ul li {
+          float: left;
+        }
+        nav ul li a{border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;}
+      /*   this fixes the style of the nav bar */
+      
+      .contentbox {
+        display: block;
+        margin: 10px;
+        border: 1px solid black;
+        padding: 15px;
+        font-family: 'Montserrat', sans-serif;
+      }
+    
+    } /*end large */
