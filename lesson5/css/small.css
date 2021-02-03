@@ -5,7 +5,19 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
  }
-
+aside {
+    background-color: #f95738ff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    /* position: ;  */
+    top: 0;
+    margin: 1.25rem auto;
+    max-width: 760px;
+    
+    /* width: 100%  */
+    /* border: 3px solid #f4d35e; */
+     
+}
 header, nav, main, footer {
   margin: 1.25rem auto;
   max-width: 760px;
