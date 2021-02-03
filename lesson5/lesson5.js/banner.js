@@ -1,5 +1,5 @@
 function banner () {
-    var weekday - new Array (7);
+    var weekday = new Array (7);
     weekday[0]=  "Sunday";
     weekday[1] = "Monday";
     weekday[2] = "Tuesday";
