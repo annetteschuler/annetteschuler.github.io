@@ -28,8 +28,8 @@ function currentDate() {
     const todaysdate = new Date();
     const dayName = dayNames[todaysdate.getDay()];
     const monthName = months[todaysdate.getMonth()];
-    const currentdate = dayName + ", " + monthName + " " + todaysdate.getDate() + ", " + todaysdate.getFullYear();
-    
+    // const currentdate = dayName + ", " + monthname  + " " + todaysdate.getDate() + " " + todaysdate.getFullYear();
+    const currentdate = dayName + ", " + todaysdate.getDate()  + " " + monthName + " " + todaysdate.getFullYear();
     
     document.getElementById("currentDate").textContent = currentdate;
 }
