@@ -121,7 +121,7 @@ footer {
 
 .smallbox {
   display: grid;
-  grid-template-columns: 1fr 80%;
+  grid-template-columns: 1fr auto;
   
   }
   .fav {
