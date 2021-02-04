@@ -1,4 +1,5 @@
 function banner () {
+    var x = document.getElementById("bannerdiv");
     var weekday = new Array (7);
     weekday[0]=  "Sunday";
     weekday[1] = "Monday";
@@ -7,13 +8,12 @@ function banner () {
     weekday[4] = "Thursday";
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
+    var now = new Date();
     var day = weekday[now.getDay()];
 
     if (day == "Friday") {
-        document.writeIn("<h2>Banner</h2>");
+        x.style.display = "block";  
+    }  else {
+       x.style.display = "none"; 
     }
-    else (hide);
-  }
-
- //use display: none if not on Friday 
 }

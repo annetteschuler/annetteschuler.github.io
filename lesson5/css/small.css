@@ -20,7 +20,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-div.banner {
+#bannerdiv {
   background-color: #f95738ff;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
