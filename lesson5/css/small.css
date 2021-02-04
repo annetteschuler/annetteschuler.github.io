@@ -60,8 +60,9 @@ nav ul li a { /* to make clickable, spread out */
   border-top: 1px solid black;
 }
 
-nav ul li.active a{background-color: #f95738ff;
-color: #ebebd3ff;}
+nav ul li.active a {background-color: #f95738ff;
+      color: #ebebd3ff;
+}
 
 nav ul li a:hover {
   background-color: #ee964bff;
@@ -120,13 +121,13 @@ footer {
 
 .smallbox {
   display: grid;
-  grid-template-column: 1fr 80%;
+  grid-template-columns: 1fr 80%;
   
   }
   .fav {
     grid-area: 1 / 1 / 5 / 2 ;
   }
-  
+
 
   .bigbox {
     display: flex;
