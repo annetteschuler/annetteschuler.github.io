@@ -113,6 +113,13 @@ h2 {
   padding: .5rem;
   box-shadow: 0 0 50px #777;
 }
+div.article {
+  border: 1px solid black;
+  background-color: white;
+  }
+#artimg {
+  box-shadow: #f4d35e;
+}
 
 footer {
   background-color: #f4d35e;
@@ -123,12 +130,12 @@ footer {
 .smallbox {
   display: grid;
   grid-template-columns: 1fr auto;
-  
+  grid-template-rows: 5fr;
   }
-  .fav {
+  
+   .fav {
     grid-area: 1 / 1 / 5 / 2 ;
   }
-
 
   .bigbox {
     display: flex;
