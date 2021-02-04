@@ -60,7 +60,8 @@ nav ul li a { /* to make clickable, spread out */
   border-top: 1px solid black;
 }
 
-nav ul li.active a {background-color: #f95738ff;
+nav ul li.active a {
+      background-color: #f95738ff;
       color: #ebebd3ff;
 }
 
