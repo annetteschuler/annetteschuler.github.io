@@ -117,3 +117,18 @@ footer {
   color: #083d77ff;
   padding: 5px;
   }
+
+.smallbox {
+  display: grid;
+  grid-template-column: 1fr 80%;
+  
+  }
+  .fav {
+    grid-area: 1 / 1 / 5 / 2 ;
+  }
+  
+
+  .bigbox {
+    display: flex;
+    justify-content: center;
+  }
