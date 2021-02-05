@@ -25,7 +25,7 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   border: 3px solid #f4d35e;
-  margin-top: -3px;
+  margin-top: -5px;
  }
   /* width: 100%  */
   /* border: 3px solid #f4d35e; */
@@ -130,10 +130,9 @@ div.article {
 #artimg {
   box-shadow: 0 0 30px black;
 }
-
-.social {
+h4 {
+  font-style: italic;
 }
-
 
 footer {
   background-color: #f4d35e;
@@ -143,13 +142,25 @@ footer {
 
 .smallbox {
   display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: 5fr;
+  grid-template-columns: 1fr auto ;
+  grid-template-rows: 1fr 1fr 1fr auto;
+  }
+
+  #wv {
+    color: #083d77ff; 
+    font-family: "Mountains of Christmas", cursive;  
+    font-size: 16px;
+  }
+   .fav1 {
+    grid-area: 1 / 1 / 2 / 2 ;
+  }
+  .fav2 {
+    grid-area: 2 / 1 / 3 / 2 ;
+  }
+  .fav3 {
+    grid-area: 3 / 1 / 4 / 2 ;
   }
   
-   .fav {
-    grid-area: 1 / 1 / 5 / 2 ;
-  }
 
   .bigbox {
     display: flex;
