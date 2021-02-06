@@ -2,5 +2,17 @@
 /* 35em is also 560px when basefont is 16ps */
 @media only screen and (min-width: 35em) {
  
-}
+
   /* 64em is also 1028px when basefont is 16px */
+
+section.fiveday {
+  display: inline-block;
+}
+table {
+  display: table;
+}
+
+iframe {
+  display: inline-block;
+}
+}

@@ -106,6 +106,10 @@ h2 {
   box-shadow: 0 0 50px #777;
 }
 
+section.fiveday {
+  display: none;
+}
+
 border table, td, th {
   border: 1px solid black;
 }
@@ -166,4 +170,7 @@ footer {
   .bigbox {
     display: flex;
     justify-content: center;
+  }
+  iframe {
+    display: none;
   }
