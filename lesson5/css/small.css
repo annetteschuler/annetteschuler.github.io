@@ -96,9 +96,9 @@ h2 {
   }
 .hero img {
   margin: 1.25rem auto;
-  max-width: 760px;
+  max-width: 660px;
   }
-  
+
 .hero {
   margin: 10px auto;
 }
@@ -137,6 +137,9 @@ td {
 div.article {
   border: 1px solid black;
   background-color: white;
+  max-width: 660px;
+  margin-right: auto;
+  margin-left: auto;
   }
 #artimg {
   box-shadow: 0 0 30px black;
@@ -156,7 +159,8 @@ footer {
 .smallbox {
   display: grid;
   grid-template-columns: 1fr auto ;
-  grid-template-rows: 1fr 1fr 1fr auto;
+  grid-template-rows: 1fr 1fr 1fr auto;0
+
   }
 
   #wv {
