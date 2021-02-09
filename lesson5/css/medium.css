@@ -7,12 +7,10 @@
   .weathersummary {
     position: absolute;
   }
-  
-/* section.fiveday {
-  display: inline-block;
-} */
+
 table {
   display: table;
+  width: 100%;
 }
 
 /* iframe {

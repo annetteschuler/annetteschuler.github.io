@@ -113,17 +113,18 @@ h2 {
   max-width: 750px;
 }
 
-section.fiveday {
-  /* display: none; */
-  display: inline-block;
-}
+/* section.fiveday {
+   display: none; 
+   display: inline-block; 
+ max-width: 660px;
+} */
 
 border table, td, th {
   border: 1px solid black;
 }
 
 table {
-  width: 660px;
+  max-width: 660px;
   margin-right: auto;
   margin-left: auto;
   border-collapse: collapse;
