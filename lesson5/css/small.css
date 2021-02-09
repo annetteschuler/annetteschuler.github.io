@@ -103,8 +103,9 @@ h2 {
   margin: 10px auto;
 }
 .weathersummary {
-  top: 50px;
-  left: 50px;
+  top: 40px;
+  left: 70px;
+  bottom: 40px;
   background: #ee964bff;
   border: 1px solid green;
   padding: .5rem;
@@ -122,7 +123,7 @@ border table, td, th {
 }
 
 table {
-  width: 80%;
+  width: 660px;
   margin-right: auto;
   margin-left: auto;
   border-collapse: collapse;
