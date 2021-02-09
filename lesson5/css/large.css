@@ -52,6 +52,8 @@
         padding: .6rem 1rem;}
       /*   this fixes the style of the nav bar */
       
+     
+
       .contentbox {
         display: block;
         margin: 10px;
@@ -59,4 +61,9 @@
         padding: 15px;
         font-family: 'Montserrat', sans-serif;
       }
+     
+       .smallbox {
+        align-items: center;
+        margin: auto 10px;
+      } 
     }

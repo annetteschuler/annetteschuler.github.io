@@ -6,10 +6,12 @@ body {
     text-align: center;
  }
      
-header, nav, main, footer {
+header, nav, main, footer  {
   margin: 1.25rem auto;
   max-width: 760px;
   }
+
+
 
 header { 
     background-color: #083d77ff;
@@ -92,18 +94,22 @@ h2 {
 .herodiv {
     position: relative;
   }
-
+.hero img {
+  margin: 1.25rem auto;
+  max-width: 760px;
+  }
+  
 .hero {
   margin: 10px auto;
 }
 .weathersummary {
-  position: absolute;
   top: 50px;
   left: 50px;
   background: #ee964bff;
   border: 1px solid green;
   padding: .5rem;
   box-shadow: 0 0 50px #777;
+  max-width: 750px;
 }
 
 section.fiveday {
@@ -134,6 +140,8 @@ div.article {
   }
 #artimg {
   box-shadow: 0 0 30px black;
+  max-width: 300px;
+
 }
 h4 {
   font-style: italic;
@@ -170,7 +178,9 @@ footer {
   .bigbox {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
-  iframe {
-    display: none;
+  .smallbox {
+    align-items: center;
+    margin: auto 10px;
   }
