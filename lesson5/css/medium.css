@@ -7,6 +7,10 @@
   .weathersummary {
     position: absolute;
   }
+  .hero img {
+    /* margin: 1.25rem auto; */
+    max-width: 660px;
+    }
 
 table {
   display: table;
