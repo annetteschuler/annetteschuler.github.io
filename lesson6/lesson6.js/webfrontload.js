@@ -1,7 +1,5 @@
 WebFont.load({
     google: {
-      families: [
-        'Mountains of Christmas','Montserrat'
-      ]
+      families: ['Mountains of Christmas','Montserrat']
     }
   });
