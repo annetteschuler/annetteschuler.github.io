@@ -59,16 +59,11 @@
           
          <section class="weathersummary">
         <h3>Weather Summary</h3>
-        <p class="label">Currently:</p>
-        <p class="value">39&deg;F</p>
-        <p class="label">High: </p>
-        <p class="value">40&deg;F</p>
-        <p class="label">Wind Chill:</p>
-        <p class="value"><span id="windchill"></span>&deg;F</p>
-        <p class="label">Humidity:</p>
-        <p class="value">67%</p>
-        <p class="label">Wind Speed:</p>
-        <p class="value">8 mph</p>
+        <p>Currently: <span id="temp">39</span>&deg;F</p>
+        <p>High: 40&deg;F</p>
+        <p>Wind Chill: <span id="windchill"> </span>&deg;F</p>
+        <p>Humidity: 67%</p>
+        <p>Wind Speed: <span id="windspeed">8</span> mph</p>
         </section>
     </div>
     </div>
@@ -150,7 +145,7 @@
     
     &copy; Weathervane 2 Go | Attributions | Annette Schuler <br>
    <span id="currentDate"></span>
-   
+     
 </footer>
 <script src="lesson6.js/primarynav.js"></script>
 <script src="lesson6.js/currentdate.js" onload="currentDate()"></script> 
@@ -158,7 +153,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="lesson6.js/webfrontload.js"></script>
 <!-- these two scripts call the font library  -->
-<script src="lesson6.js/windchill.js" onload="wChill()"></script>
+<script src="lesson6.js/windchill.js" onload="wChill(temp,windspeed)"></script>
 </body>
 <!--from video example <loom-container id="lo-engage-ext-container"></loom-container> -->
 </html>

@@ -1,17 +1,25 @@
 function wChill() {
-    let temp=parseFloat(document.querySelector('#temp').textContent);
-    let windspeed=(document.querySelector('#speed').textContent);
-    let windchill='N/A';
+    let temp = parseFloat(document.querySelector('#temp').textContent);
+    let windspeed = parseFloat(document.querySelector('#windspeed').textContent);
+    
+    let windChill='N/A';
+    let x;
+   
+    if ((temp >50) || (windspeed <= 3)) {
 
-    if (&& temp){
-        windchill =- windchill(temp, windspeed); 
-    }
-
-    if () {
-        document.querySelector('#windchill').textContent=-windChill(temp, windspeed);
+        windChill = 'N/A';
+         
+    } else {   
+        x = (35.74 + (0.6215 * temp) - (35.75 * (Math.pow(windspeed, .16))) + 
+        (0.4275 * temp * (Math.pow(windspeed, .16))));
+        windChill = Math.round(x);
         
-    }
+     }
+    
+        document.querySelector('#windchill').textContent=windChill;
+ }
+    
 
-    const div-document.querySelectorAll('div');
-    let temp-document.querySelector('#temp');
-}
+    // const div-document.querySelectorAll('div');
+    // let temp-document.querySelector('#temp');
+
