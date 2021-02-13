@@ -48,18 +48,23 @@
     <!-- <div class="contentbox forecast">Hero w/ weather summary</div> -->
     <figure class="hero">
         <img src="images/heroimg.jpg" alt="Preston blue sky" sizes = "80vw"
-        srcset="images/heroimg200.jpg 200w,
+        srcset="images/heroimg350.jpg 350w,
                 images/heroimg500.jpg 500w,
                 images/heroimg800.jpg 800w,
                 images/heroimg1100.jpg 1100w">
          </figure>       
         <section class="weathersummary">
         <h3>Weather Summary</h3>
-        <p>Currently: 39 F</p>
-        <p>High: 40 F</p> 
-        <p>Wind Chill:  <span id="output"> F</span></p>
-        <p>Humidity: 67%</p>
-        <p>Wind Speed: 8 mph</p>
+        <p class="label">Currently:</p>
+        <p class="value">39&deg;F</p>
+        <p class="label">High: </p>
+        <p class="value">40&deg;F</p>
+        <p class="label">Wind Chill:</p>
+        <p class="value"><span id="windchill"></span>&deg;F</p>
+        <p class="label">Humidity:</p>
+        <p class="value">67%</p>
+        <p class="label">Wind Speed:</p>
+        <p class="value">8 mph</p>
         </section>
     </div>
     </div>
@@ -149,7 +154,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="lesson6.js/webfrontload.js"></script>
 <!-- these two scripts call the font library  -->
-
+<script src="lesson6.js/windchill.js" onload="wChill()"></script>
 </body>
 <!--from video example <loom-container id="lo-engage-ext-container"></loom-container> -->
 </html>
