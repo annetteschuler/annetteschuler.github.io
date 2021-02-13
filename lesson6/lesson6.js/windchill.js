@@ -4,7 +4,7 @@ function wChill() {
     
     let windChill='N/A';
     let x;
-   
+       
     if ((temp >50) || (windspeed <= 3)) {
 
         windChill = 'N/A';
@@ -19,7 +19,3 @@ function wChill() {
         document.querySelector('#windchill').textContent=windChill;
  }
     
-
-    // const div-document.querySelectorAll('div');
-    // let temp-document.querySelector('#temp');
-
