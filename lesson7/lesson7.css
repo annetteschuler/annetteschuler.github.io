@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+     justify-content: center;
+
+}
+img {
+
+}
+
+img[data-src] {
+
+}

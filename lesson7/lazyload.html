@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> --> 
+    <meta name="description" content="Progressive Loading of Images using Lazy Load">
+    <title>Progressive Loading Images week 7 assignment by Annette Schuler</title>
+    <link href="lesson7.css">
 </head>
 <body>
     <h1>Progressive Loading of Images</h1>
     <!-- include a placeholderimage that has one background color and some simple text like "placeholder"
         that will be loaded on all 6 attributes first -->
-    <img src="placeholderimg.jpg" alt="gray box with placeholder text">
-  
+    <div class="container">
+        
     <!-- five or six picture elements with single img elements as children in one column 300x400px  -->
   
-    <img src="images/heroimg1100.jpg" alt="Preston blue sky" >
-    <img src="images/heroimg1100.jpg" alt="Preston blue sky" >
-    <img src="images/heroimg1100.jpg" alt="Preston blue sky" >
-    <img src="images/heroimg1100.jpg" alt="Preston blue sky" >
-    <img src="images/heroimg1100.jpg" alt="Preston blue sky" >
-    <img src="images/heroimg1100.jpg" alt="Preston blue sky" >
-    
+    <!-- <img data-src="images" alt="kitten placeholder photo"> -->
+    <picture><img src="https://via.placeholder.com/300x400.jpg" data-src="images/img1piano.jpg" alt="piano"></picture>
+    <picture><img src="https://via.placeholder.com/300x400.jpg" data-src="images/img2strings.jpg" alt="stringed instruments"></picture>
+    <picture><img src="https://via.placeholder.com/300x400.jpg" data-src="images/img3hollyhox.jpg" alt="hollyhox"></picture>
+    <picture><img src="https://via.placeholder.com/300x400.jpg" data-src="images/img4Ambrosius_Bosschaert.jpg" alt="flowers in front of stained glass"></picture>
+    <picture><img src="https://via.placeholder.com/300x400.jpg" data-src="images/img5gorge.jpg" alt="gorge from jeffs vaca"></picture>
+    <picture><img src="https://via.placeholder.com/300x400.jpg" data-src="images/img6chinagirlonphone.jpg" alt="china girl on phone"></picture>    
+ </div>
+
 </body>
-    <script src="lesson7.js" ></script>
+    <script src="lesson7.js"></script>
 </html>

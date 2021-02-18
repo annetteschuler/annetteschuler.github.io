@@ -1,25 +1,27 @@
+// Kevin Powell created this 
+
 const images = document.querySelectorAll("[data-src]");
 
-function preloadingImage(img) {                       //function to get it to work
-    const src = img.getAttribute("data-src");        //assign that
-    if (|src) {                                      //if no data there
+function preloadingImage(img) {                       //function to search img
+    const src = img.getAttribute("data-src");        //finds data-src
+    if (!src) {                                      //if no data there
         return;                                     
     }
     img.src = src;                                 //this applies actual img source from
 }
 
-const imgOptions = {                                 //the output         
-    threshold: 0,                                    //changes the margins
-    rootMargin: "0px 0px 400px 0px"                
+const imgOptions = {                                     
+    threshold: 0,                                    //higher means slower loading time  
+    rootMargin: "0px 0px 50px 0px"                //changes the margins 3rd val makes when loads
     };
 
 const imgObserver = new IntersectionObserver((entries.imgObserver)=>){
     entries.forEach(entry=> {
-        if (|entry.isIntersecting) {                 //if this is false return
+        if (!entry.isIntersecting) {                 //if this is false return
         return;
-         } else {
-    preloadimage(entry.target);                     //load image
-    imgObserver.unobserve(entry.target);}           //stop observing
+         } else   {
+    preloadimage(entry.target);                     //load preloadimage
+    imgObserver.unobserve(entry.target);}           //stop observing it
     })
 }, imgOptions);
 
