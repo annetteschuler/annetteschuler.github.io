@@ -1,19 +1,19 @@
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {                                     
-    threshold: 0,                                    //higher means slower loading time  
-    rootMargin: "0px 0px 50px 0px"                //changes the margins 3rd val makes when loads
+    threshold: 1,                                    //higher means slower loading time  
+    rootMargin: "0px 0px 300px 0px"                //changes the margins 3rd val makes when loads
     };
 
 const loadImages = (image) => {
-        image.setAttribute("src", image.getAttribute("data-src"));
+        image.setAttribute('src', image.getAttribute('data-src'));         //loads img and changes
         image.onload = () => {
-            image.removeAttribute("data-src");
+            image.removeAttribute('data-src');
     
         };
     };
 
-if("IntersectionObserver" in Window) {
+if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, imgObserver) => {
         items.forEach((item) => {
             if (item.isIntersecting) {

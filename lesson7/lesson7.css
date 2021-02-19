@@ -10,7 +10,7 @@ h1 {
     font-family: Roboto, "sans serif";
     font-size: 1.5rem;
 }
-.columnofpics {
+div {
     display: grid;
     grid-auto-rows: 400px;
     justify-content: center;
@@ -19,17 +19,9 @@ h1 {
 }
 
 
-img {
-    display: grid;
-    justify-content: center;
-    border: 2px solid gray;
-    padding: 3px;
-    filter: blur(3em);
-    transition: filter 3s;
-}
 
 img[data-src] {
-    filter: blur(0.2em); 
+    filter: blur(3px); 
     /* webkit-filter: blur(0px);
     moz-filter: blur(0px);
     ms-filter: blur(0px);
@@ -40,3 +32,11 @@ img[data-src] {
     filter: blur(0px);
     transition: filter 2s;
 } */
+img {
+    display: grid;
+    justify-content: center;
+    border: 2px solid gray;
+    padding: 3px;
+    filter: blur(0px);
+    transition: filter 3s;
+}
