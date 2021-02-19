@@ -10,7 +10,7 @@ h1 {
     font-family: Roboto, "sans serif";
     font-size: 1.5rem;
 }
-.images {
+.columnofpics {
     display: grid;
     grid-auto-rows: 400px;
     justify-content: center;
@@ -29,10 +29,14 @@ img {
 }
 
 img[data-src] {
-    filter: blur(0.2em); 
-    webkit-filter: blur(0px);
+    /* filter: blur(0.2em);  */
+    /* webkit-filter: blur(0px);
     moz-filter: blur(0px);
     ms-filter: blur(0px);
-    o-filter: blur(0px);
+    o-filter: blur(0px);  */
    filter: blur(0px);
 } 
+/* img {
+    filter: blur(0px);
+    transition: filter 2s;
+} */
