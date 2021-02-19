@@ -14,11 +14,11 @@ const loadImages = (image) => {
     };
 
 if("IntersectionObserver" in Window) {
-    const observer = new IntersectionalObserver((items, imgObserver) => {
+    const observer = new IntersectionObserver((items, imgObserver) => {
         items.forEach((item) => {
             if (item.isIntersecting) {
                 loadImages(item.target);
-                img.Observer.unobserve(item.target);
+                imgObserver.unobserve(item.target);
             }
         });
 
