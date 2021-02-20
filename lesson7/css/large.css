@@ -55,8 +55,14 @@
       #photoGallery {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
-       
-      } 
+            
+      }
+      
+      figure.pg img {
+        max-width: 500px;   
+        height: auto;  
+      }
+      
 
       figure.pg:hover {
          box-shadow: 3px 3px 10px black;
