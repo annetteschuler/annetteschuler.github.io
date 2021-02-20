@@ -73,17 +73,19 @@ h2 {
 
 #photoGallery {
     display: grid;
-    justify-content: center;
     grid-template-columns: 1fr;
     grid-gap: 25px;
-  
-}
+  }
 
 figure.pg {
-    border: 5px solid #083d77ff;
-    max-width: 400px;   
-    max-height: 300px;   
-    
+    box-shadow: 0px 0px 15px 1px #888888;
+    padding: 10px;
+    margin: 0;
+}
+
+figure.pg img {
+    width: 300px;   
+    height: auto;   
 }
 
 figcaption {

@@ -53,11 +53,12 @@
       /*   this fixes the style of the nav bar */
       
       #photoGallery {
-        grid-template-columns: 3fr;
+        grid-area: 3 / 3;
       }
-      figure {
-         box-shadow: 25px 5px 1px #083d77ff;
-      }
+      figure.pg:hover {
+         box-shadow: 0px 0px 10px 5px #888888;
+    }
+
 
       figcaption {
         display: flex;

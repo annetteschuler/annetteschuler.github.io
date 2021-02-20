@@ -5,7 +5,7 @@
 
     /* 64em is also 1028px when basefont is 16px */
 #photoGallery {
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 figcaption {
