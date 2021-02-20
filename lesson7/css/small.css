@@ -1,0 +1,101 @@
+body {
+    display: block;
+    background-color: #ebebd3ff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+ }
+     
+header, nav, main, footer  {
+  margin: 1.25rem auto;
+  max-width: 760px;
+  }
+
+header { 
+    background-color: #083d77ff;
+    color: #ebebd3ff;
+    font-family: "Mountains of Christmas", cursive;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ header img {
+    width: 80px;
+    height: auto;
+}
+
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent; 
+  border: none;
+  font-size: 1.6rem;
+  color: #083d77ff;
+}
+nav {
+  background-color: #f4d35e;
+  font-family: Montserrat, sans-serif;
+}
+nav ul { /* removes dots, moves text left and up */
+  list-style-type: none; 
+    padding: 0;
+    margin: 0;
+ } 
+nav ul li a { /* to make clickable, spread out */
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+/*   removes underlining */
+  color: #083d77ff;
+  border-top: 1px solid black;
+}
+
+nav ul li.active a {
+      background-color: #f95738ff;
+      color: #ebebd3ff;
+}
+
+nav ul li a:hover {
+  background-color: #ee964bff;
+ }
+nav ul.hide {display: none;}
+
+.clearfix:after { /* force an element not to collapse or lose color */
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+  font-family: "Mountains of Christmas", cursive;  
+  color: #083d77ff;
+}
+
+#photoGallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+  
+}
+
+figure.pg {
+    border: 5px solid #083d77ff;
+    max-width: 400px;   
+    max-height: 300px;   
+    
+}
+
+figcaption {
+    display: none;
+    padding: 5px;
+}
+
+
+footer {
+  background-color: #f4d35e;
+  color: #083d77ff;
+  padding: 5px;
+  }
+
+ 

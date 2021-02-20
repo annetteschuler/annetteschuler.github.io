@@ -6,16 +6,10 @@
     <title>Preston Idaho page week 6 assignment by Annette Schuler</title>
      <meta name="description" content="Responsive Images and Font in Weather Site Plan in WDD230 Web 
      Frontend Development at BYUI">
-     
-     <!-- <link rel="preconnect"   href="https://fonts.gstatic.com"> -->
-     <!-- <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">     -->
-
-
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
      <link href="css/small.css" rel="stylesheet">
-     <!-- <link href="lesson6/css/small.css" rel="stylesheet"> -->
-     <link href="lesson6/css/medium.css" rel="stylesheet">
-     <link href="lesson6/css/large.css" rel="stylesheet">
+     <link href="css/medium.css" rel="stylesheet">
+     <link href="css/large.css" rel="stylesheet">
 
      <link rel="shortcut icon" href="images/favicon.ico">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -23,9 +17,7 @@
 </head>
     <body>
     <header>
-        <!-- <div id="bannerdiv">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the City Park Pavilion.
-        </div>  -->
-   <picture><img src="images/drivingrooster-copy.jpg" alt="logo of rooster driving"></picture>
+     <picture><img src="images/drivingrooster.jpg" alt="logo of rooster driving"></picture>
     <section><h1>Weathervane 2 Go</h1>
     <div class="motto">"Don't be a birdbrain, check the Weathervane!"</div>
     </section>
@@ -35,109 +27,77 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
         <li> <a href="#">Home</a></li>
-        <li class="active"> <a href="#">Preston</a></li>
+        <li> <a href="#">Preston</a></li>
         <li> <a href="#">Soda Springs</a></li>
         <li> <a href="#">Fish Haven</a></li>
         <li> <a href="#">Storm Center</a></li>
-        <li> <a href="#">Gallery</a></li>
+        <li class="active"> <a href="#">Gallery</a></li>
     </ul>
 </nav>
 
 <main>
-    <h2>Preston Idaho</h2>
-    <figure>
-        <img src="images/bluesky.jpg" loading="lazy"
+    <h2>Weather Gallery</h2>
+    <div id="photoGallery">
+    <figure class="pg"> 
+        <img src="images/400x300.png" data-src="images/bluesky.jpg" 
              alt="blue sky and clouds">
-        <figcaption>Photo by Mabel Amber from Pexels</figcaption>
+        <figcaption>Blue Sky - Photo by Mabel Amber from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/cloudy.jpg" loading="lazy"
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/cloudy.jpg" 
              alt="cloudy sky and muddy road">
-        <figcaption>Photo by freestocks.org from Pexels</figcaption>
+        <figcaption>Cloudy Sky - Photo by freestocks.org from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/snow.jpg" loading="lazy"
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/snow.jpg" 
              alt="trees with snow and hoarfrost">
-        <figcaption>Photo by freestocks.org from Pexels</figcaption>
+        <figcaption>Snow - Photo by freestocks.org from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/rainbow.jpg" loading="lazy"
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/rainbow.jpg" 
              alt="rainbow">
-        <figcaption>Photo by Paweł Fijałkowski from Pexels</figcaption>
+        <figcaption>Rainbow - Photo by Paweł Fijałkowski from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/fog.jpg" loading="lazy"
-             alt="blue sky and clouds">
-        <figcaption>Photo by Darwis Alwan from Pexels</figcaption>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/fog.jpg" 
+             alt="fog and trees">
+        <figcaption>Fog - Photo by Darwis Alwan from Pexels</figcaption>
     </figure>
-      <figure>
-        <img src="images/rain.jpg" loading="lazy"
-             alt="rainbow">
-        <figcaption>Photo by Andrew Neel from Pexels</figcaption>
+      <figure class="pg">
+        <img src="images/400x300.png" data-src="images/rain.jpg"
+             alt="rain">
+        <figcaption>Rain - Photo by Andrew Neel from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/field.jpg" loading="lazy"
-             alt="blue sky and clouds">
-        <figcaption>Photo by eberhard grossgasteiger from Pexels</figcaption>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/field.jpg" 
+             alt="green field and fog">
+        <figcaption>Green Field and Fog - Photo by eberhard grossgasteiger from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/lightning.jpg" loading="lazy"
-             alt="blue sky and clouds">
-        <figcaption>Photo by freestocks.org from Pexels</figcaption>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/lightning.jpg" 
+             alt="lightning">
+        <figcaption>Lightning - Photo by freestocks.org from Pexels</figcaption>
     </figure>
-    <figure>
-        <img src="images/sun.jpg" loading="lazy"
-             alt="blue sky and clouds">
-        <figcaption>Photo by freestocks.org from Pexels</figcaption>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/sun.jpg" 
+             alt="sunrise">
+        <figcaption>Sunrise - Photo by freestocks.org from Pexels</figcaption>
     </figure>
+</div>
 
     </main>
 
     <footer>
-        <img src="images/favicon.ico" alt="wheather vane favicon"> <span id="wv">  Weathervane 2 Go - Contact Information</span>
-       <br><br>
-
-    <div class="bigbox">
-        <div class="smallbox">   
-            <img class="fav1" src="images/adzfav.png" alt="adzfav">
-                <p>12345 Main Street <br> Preston, ID  83263</p>
-            <img class="fav2" src="images/phonefav.png" alt="phonefav">
-                <p>999-999-9999</p>
-            <img class="fav3" src="images/emailfav.png" alt="emailfav">
-                 <p>weathervane2go.com</p>
-                </div>
-
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94731.57156811954!2d-111.95036604274752!3d42.09972565423261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612501201220!5m2!1sen!2sus"
-        width="400" 
-        height="300" 
-        style="border:0;" 
-        allowfullscreen="" 
-        aria-hidden="false" 
-        tabindex="0"></iframe>
-        
-      
-
-</div>
-
-    <div class="social">
-        <br>
-    <a href="http://www.facebook.com"><img src="images/fb.jpg" alt="facebook icon"></a>
-    <a href="https://www.pinterest.com"><img src="images/pr.jpg" alt="pintarest icon"></a>
-    <a href="http://www.twitter.com"><img src="images/tw.jpg" alt="twitter icon"></a>
-    <a href="https://www.whatsapp.com"><img src="images/wa.jpg" alt="whatsap icon"></a>
-    </div> 
-    
-    &copy; Weathervane 2 Go | Attributions | Annette Schuler <br>
-   <span id="currentDate"></span>
-     
-</footer>
-<script src="lesson6.js/primarynav.js"></script>
-<script src="lesson6.js/currentdate.js" onload="currentDate()"></script> 
-<script src="lesson6.js/banner.js" onload="banner()"></script>
+        &copy; Weathervane 2 Go | Attributions | Annette Schuler <br>
+       <span id="currentDate"></span>
+       
+    </footer>
+<script src="lesson7.js/preston.js"></script>
+<script src="lesson7.js/preston.js" onload="currentDate()"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="lesson6.js/webfrontload.js"></script>
+<script src="lesson7.js/webfrontload.js"></script>
+<script src="lesson7.js/lazyload.js"> 
 <!-- these two scripts call the font library  -->
-<script src="lesson6.js/windchill.js" onload="wChill(temp,windspeed)"></script>
 </body>
 <!--from video example <loom-container id="lo-engage-ext-container"></loom-container> -->
 </html>
