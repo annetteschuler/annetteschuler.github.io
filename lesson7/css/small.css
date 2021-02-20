@@ -84,7 +84,7 @@ figure.pg {
 }
 
 figure.pg img {
-    width: 300px;   
+    max-width: 375px;   
     height: auto;   
 }
 
