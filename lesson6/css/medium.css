@@ -17,6 +17,9 @@
     width: 100%;
   }
   
+  .map {
+    max-width: 400px;
+  }
   /* iframe {
     display: inline-block;
   } */
