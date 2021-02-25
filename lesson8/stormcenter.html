@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center form page - week 8 assignment by Annette Schuler</title>
+     <meta name="description" content="Storm Center including detailed form in WDD230 Web 
+     Frontend Development at BYUI">
+     
+     <!-- <link rel="preconnect"   href="https://fonts.gstatic.com"> -->
+     <!-- <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">     -->
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+     <link href="css/small.css" rel="stylesheet">
+     <link href="css/medium.css" rel="stylesheet">
+     <link href="css/large.css" rel="stylesheet">
+
+     <link rel="shortcut icon" href="images/favicon.ico">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+</head>
+    <body>
+    <header>
+     <picture><img src="images/drivingrooster-copy.jpg" alt="logo of rooster driving"></picture>
+    <section><h1>Weathervane 2 Go</h1>
+    <div class="motto">"Don't be a birdbrain, check the Weathervane!"</div>
+    </section>
+</header>
+
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li> <a href="#">Home</a></li>
+        <li> <a href="https://annetteschuler.github.io/lesson6/preston-6.html">Preston</a></li>
+        <li> <a href="#">Soda Springs</a></li>
+        <li> <a href="#">Fish Haven</a></li>
+        <li class="active"> <a href="#">Storm Center</a></li>
+        <li> <a href="https://annetteschuler.github.io/lesson7/gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Storm Center</h1>
+     <form method="get" action="thanks.html">
+    <fieldset>
+               <!-- this breaks up the form into sections      -->
+               <legend>Your Information</legend>
+               <label class="top"> 
+                    <!-- //this label activates the blue border when you click on the label// --> 
+               First Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required>  </label> 
+               <!-- no closing input tag needed, astrisk shows required to user-->
+              <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" required>  </label> 
+              <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com">  </label>  
+              <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required>  </label> 
+              <label class="top">Zip Code<input type="text" name="zipcode" placeholder="12345">  </label> 
+              <label class="top">Date <input type="date" name="date"></label>
+    </fieldset>
+    <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+                 <!-- label means it activates when you click on label -->
+                 <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label> 
+                 <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
+                 <!-- the same name of audience means only one can be selected -->
+                
+                 <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+                <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+                <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+    </fieldset>
+    <fieldset>
+            <legend>Funding</legend>    
+            <label class="top">Anticipated Completion Date <input type="date" name="completedDate"</label>
+            <label class="top">Course Subject
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option> 
+                                <!-- this makes the default not assigned a real value -->
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business Professional</option>
+                        <option value="security">Cyber Security</option>
+                    </select>
+                </label>
+                <label class="top">How Many Authors <input type="number" name="authors"></label>
+        </fieldset>
+        <input type="submit" value = "Propose My Course" class="submitBtn">
+            <!-- think I want to... -->
+    </form>
+
+      
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        </div>
+
+    <div class="social">
+        <br>
+    <a href="http://www.facebook.com"><img src="images/fb.jpg" alt="facebook icon"></a>
+    <a href="https://www.pinterest.com"><img src="images/pr.jpg" alt="pintarest icon"></a>
+    <a href="http://www.twitter.com"><img src="images/tw.jpg" alt="twitter icon"></a>
+    <a href="https://www.whatsapp.com"><img src="images/wa.jpg" alt="whatsap icon"></a>
+    </div> 
+    
+    &copy; Weathervane 2 Go | Attributions | Annette Schuler <br>
+   <span id="currentDate"></span>
+     
+</footer>
+<script src="lesson6.js/primarynav.js"></script>
+<script src="lesson6.js/currentdate.js" onload="currentDate()"></script> 
+<script src="lesson6.js/banner.js" onload="banner()"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="lesson6.js/webfrontload.js"></script>
+<!-- these two scripts call the font library  -->
+<script src="lesson6.js/windchill.js" onload="wChill(temp,windspeed)"></script>
+</body>
+<!--from video example <loom-container id="lo-engage-ext-container"></loom-container> -->
+</html>
+

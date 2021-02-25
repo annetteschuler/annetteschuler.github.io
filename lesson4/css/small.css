@@ -51,7 +51,9 @@ nav ul li a { /* to make clickable, spread out */
 }
 
 nav ul li.active a{background-color: #f95738ff;
-color: #ebebd3ff;}
+color: #ebebd3ff;
+
+}
 
 nav ul li a:hover {
   background-color: #ee964bff;

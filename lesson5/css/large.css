@@ -39,17 +39,19 @@
           display: none;
       /*     get rid of button icon */
         }
-        nav ul.hide {display: block;}
+        nav ul.hide {display: flex;}
       /*   restores nav bar after js changed it */
-        nav ul li {
-          margin-left: 2%;
+        /* nav ul li {
+          margin-left: 2%; */
         }
         nav ul li {
-          float: left;
-        }
-        nav ul li a{border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .6rem 1rem;}
+          justify-content: center;
+          flex: auto;
+       }
+        nav ul li a {
+        border: none;
+        /* border-right: 1px solid rgba(0,0,0,0.3); */
+        padding: .6rem 1.7rem;}
       /*   this fixes the style of the nav bar */
       
      
