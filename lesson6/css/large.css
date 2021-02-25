@@ -37,21 +37,24 @@
       }
       nav button {
         display: none;
-       }
- 
-       nav ul.hide {
-        display: flex;
+    /*     get rid of button icon */
       }
+      nav ul.hide {display: flex;}
+    /*   restores nav bar after js changed it */
+      /* nav ul li {
+        margin-left: 2%;
+      } */
       nav ul li {
-        display: flex;
-        justify-content: center;
-        flex: auto;
+       display: flex;
+       /* justify-content: center; */
+       flex: auto;
       }
-     
-       nav ul li a {
-       border: none;  
-       padding: .6rem 1.70rem;
-      } 
+      nav ul li a {
+        display: flex;
+        border: none;
+      /* border-right: 1px solid rgba(0,0,0,0.3); */
+         padding: .6rem 1.5rem; 
+    }
  
       
        .contentbox {
