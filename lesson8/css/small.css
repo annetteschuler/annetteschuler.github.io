@@ -1,0 +1,177 @@
+body {
+    display: block;
+    background-color: #ebebd3ff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+ }
+     
+header, nav, main, footer  {
+  margin: 1.25rem auto;
+  max-width: 760px;
+  }
+
+header { 
+    background-color: #083d77ff;
+    color: #ebebd3ff;
+    font-family: "Mountains of Christmas", cursive;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ header img {
+    width: 80px;
+    height: auto;
+}
+
+nav button {
+  margin: .2rem 2%; 
+  background-color: transparent; 
+  border: none;
+  font-size: 1.6rem;
+  color: #083d77ff;
+}
+nav {
+  background-color: #f4d35e;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+nav ul { /* removes dots, moves text left and up */
+  list-style-type: none; 
+    padding: 0;
+    margin: 0;
+ } 
+nav ul li a { /* to make clickable, spread out */
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+/*   removes underlining */
+  color: #083d77ff;
+  border-top: 1px solid black;
+}
+
+nav ul li.active a {
+      background-color: #f95738ff;
+      color: #ebebd3ff;
+}
+
+nav ul li a:hover {
+  background-color: #ee964bff;
+ 
+ }
+nav ul.hide {display: none;}
+
+.clearfix:after { /* force an element not to collapse or lose color */
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+  font-family: "Mountains of Christmas", cursive;  
+   font-size: 3rem;
+  color: #083d77ff;
+   text-align: center; 
+
+}
+
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+/* FORM */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #083d77ff;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem 0;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size:  .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: top;
+    font-size: 1rem;
+    /* border: 1px solid #999; */
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    /* background-color: rgba(0, 0, 0, 0.1) */
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+
+h3.warning {
+  color: #f95738ff;
+  font-size: 1.5rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #083d77ff;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem
+    padding: 1rem 1.5rem;
+    margin: 5px 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    height: 100px;;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+    /* changes validation to green if entered required field */
+}
+
+#cid_3 {
+  max-width: 650px;
+  margin: 40px auto;
+}
+
+footer {
+	background-color: #f4d35e;
+	color: #083d77ff;
+	padding: 5px;
+	text-align: center;
+  
+	}
+
+
+
+
+
+
+
+
+

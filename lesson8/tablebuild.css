@@ -6,10 +6,12 @@ body {
     background-color: white;
     font-size: 16px;
     width: 226px;
-    margin: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
     font-family: 'Ubuntu', sans-serif;
      text-align: center;
-     box-shadow: 5px 5px 5px #628ca6;
+     box-shadow: 5px 5px 5px hsl(203, 28%, 52%);
     
  }
 table, tr, th, td {
