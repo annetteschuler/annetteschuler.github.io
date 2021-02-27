@@ -26,7 +26,7 @@ header {
     height: auto;
 }
 
-nav button {
+/* nav button {
   margin: .2rem 2%; 
   background-color: transparent; 
   border: none;
@@ -67,7 +67,7 @@ nav ul.hide {display: none;}
   content: "";
   display: table;
   clear: both;
-}
+} */
 h2 {
   font-family: "Mountains of Christmas", cursive;  
    font-size: 3rem;
@@ -76,9 +76,18 @@ h2 {
 
 }
 
-}
-/*----------- MAIN --------------*/
 
+
+
+
+/*----------- MAIN --------------*/
+main {
+    background-color: white;
+    border: 1px solid #083d77ff;
+    box-shadow: 5px 5px #083d77ff;
+    padding: 10px;
+    max-width: 40%;
+}
 
 footer {
 	background-color: #f4d35e;
@@ -89,11 +98,6 @@ footer {
 	}
 
 
-    <main>
-    <p>Dear Storm Tracker,<br><br>
-    We’re thrilled to hear from you. Our inbox can’t wait to get your messages, so notify to us any time you see a storm.
-    <br><br>Also, thanks for sending us this important data.
-  </p>
 
 
 
