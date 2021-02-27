@@ -134,8 +134,11 @@ form label.sbs {
 
 
 h3.warning {
-  color: #f95738ff;
+  background-color: white;
+  color: #f95738ff; 
   font-size: 1.5rem;
+  font-weight: bold;
+  padding: 3px;
 }
 
 form input.submitBtn {
