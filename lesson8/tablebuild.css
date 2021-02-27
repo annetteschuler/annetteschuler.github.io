@@ -14,17 +14,6 @@ body {
      box-shadow: 5px 5px 5px hsl(203, 28%, 52%);
     
  }
-table, tr, th, td {
-     border: 1px solid #cbcbcb;
-     border-collapse: collapse;
-     border-spacing: 0;
-     padding: 6px 2px 6px 2px;    
-     /* width: 270px;
-     height: 300px; */
- }
- tr:nth-child(2n + 3) {
-    background-color: #e7ffed;
-}
 
  thead {
     background-color: #7fb9c2;
@@ -34,6 +23,25 @@ table, tr, th, td {
     /* margin-top: 20px;
     margin-bottom: 20px; */
 }
+table, tr, th, td {
+     border: 1px solid #cbcbcb;
+     border-collapse: collapse;
+     border-spacing: 0;
+     padding: 6px 2px 6px 2px;    
+     /* width: 270px;
+     height: 300px; */
+ }
+
+.heading2 {
+    background-color: #628ca6; 
+    color: white;
+   
+ }
+ tr:nth-child(2n + 3) {
+    background-color: #e7ffed;
+}
+
+
 /* #t01, th, td {
     border: 1px solid #a9a9a9;
     border-collapse: collapse;
