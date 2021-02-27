@@ -50,18 +50,18 @@
                 <!-- this breaks up the form into sections      -->
                 <legend>Your Information</legend>
                 <ul class="yourinfotable">
-                <li><label class="top">Full Name* </li></li><input type="text" name="fullname" pattern="[A-Z a-z]{5,}" required>
+                <li><label class="top">Full Name* </li><li><input type="text" name="fullname" pattern="[A-Z a-z]{5,}" required>
                 </label>
                 </li>
-                <li><label class="top">Email </li></li><input type="email" name="email" placeholder="someone@gmail.com">
-                </label>
-                </li>
-                <li>
-                <label class="top">Phone* </li></li><input type="tel" name="phone" placeholder="1235551234" required>
+                <li><label class="top">Email </li><li><input type="email" name="email" placeholder="someone@gmail.com">
                 </label>
                 </li>
                 <li>
-                <label class="top">Zip Code* </li></li><input type="text" name="zip" placeholder="12345" pattern="[0-9]{5}"
+                <label class="top">Phone* </li><li><input type="tel" name="phone" placeholder="1235551234" required>
+                </label>
+                </li>
+                <li>
+                <label class="top">Zip Code* </li><li><input type="text" name="zip" placeholder="12345" pattern="[0-9]{5}"
                         required> </label>
                 <!-- <label class="top">Zip Code*<input type="text" name="zip" inputmode="numeric" placeholder="12345" pattern="[0-9]{5}" required>  </label>  -->
             </li>    
@@ -130,14 +130,13 @@
                         </datalist>
                     </label>
                 </fieldset>
-            </fieldset>
             <fieldset>
                 <legend>Your Danger Level</legend>
                 <label class="sbs"><input type="radio" name="danger" value="yes"> Yes*</label>
                 <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
                 <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
                 <!-- the same name of audience means only one can be selected -->
-                <h3 class="warning">*Note: If you are in danger, please call 911!</p>
+                <h3 class="warning">*Note: If you are in danger, please call 911!</h3>
 
 
             </fieldset>
