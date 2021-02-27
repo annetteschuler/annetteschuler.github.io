@@ -105,7 +105,7 @@ form legend {
 }
 #yourinfogrid {
    display: grid;
-   grid-template-rows: 44px / 3fr;
+   grid-template-rows: 44px 1fr 1fr 1fr;;
    grid-template-columns:  20% auto;
    grid-gap: 15px;
    list-style-type: none;
@@ -113,7 +113,7 @@ form legend {
 
 input {
   font-size: 20px;
-  padding: 6px;
+  padding: 7px;
 }
 
 /* form label.top, form div { */
@@ -121,7 +121,7 @@ form#yourinfogrid, label.top, form div {
     display: block;
     padding-top: 1rem;
     color: black;
-    font-size:  1.5rem;
+    font-size:  1.2rem;
     font-weight: bold;
 }
 
