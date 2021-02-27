@@ -122,7 +122,7 @@ form label.top, form div {
 
 form label.top input, form label.top select {
     -webkit-appearance: none;
-    display: topleft;
+    /* display: top; */
     font-size: 1rem;
     /* border: 1px solid #999; */
     border: 1px solid white;
