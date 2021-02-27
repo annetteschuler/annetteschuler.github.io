@@ -49,25 +49,34 @@
             <fieldset>
                 <!-- this breaks up the form into sections      -->
                 <legend>Your Information</legend>
-                <label class="top">Full Name* <input type="text" name="fullname" pattern="[A-Z a-z]{5,}" required>
+                <ul class="yourinfotable">
+                <li><label class="top">Full Name* </li></li><input type="text" name="fullname" pattern="[A-Z a-z]{5,}" required>
                 </label>
-                <label class="top">Email-------- <input type="email" name="email" placeholder="someone@gmail.com">
+                </li>
+                <li><label class="top">Email </li></li><input type="email" name="email" placeholder="someone@gmail.com">
                 </label>
-                <label class="top">Phone*-------<input type="tel" name="phone" placeholder="1235551234" required>
+                </li>
+                <li>
+                <label class="top">Phone* </li></li><input type="tel" name="phone" placeholder="1235551234" required>
                 </label>
-                <label class="top">Zip Code*----<input type="text" name="zip" placeholder="12345" pattern="[0-9]{5}"
+                </li>
+                <li>
+                <label class="top">Zip Code* </li></li><input type="text" name="zip" placeholder="12345" pattern="[0-9]{5}"
                         required> </label>
                 <!-- <label class="top">Zip Code*<input type="text" name="zip" inputmode="numeric" placeholder="12345" pattern="[0-9]{5}" required>  </label>  -->
+            </li>    
+            </ul>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
-                <fieldset>
-                    <legend>Storm Date</legend>
-                    <!-- <div>storm</div> -->
+                <!-- <fieldset> -->
+                    <!-- <legend>Storm Date</legend> -->
+                     <div>Storm Date</div>
                     <label class="sbs"><input type="date" name="date"></label><br>
-                </fieldset>
-                <fieldset>
-                    <legend>Storm Region</legend>
+                <!-- </fieldset>
+                <fieldset> -->
+                    <!-- <legend>Storm Region</legend> -->
+                    <div>Storm Region</div>
                     <!-- <label class="top">Anticipated Completion Date <input type="date" name="completedDate"</label> -->
                     <label class="top">
                         <select name="storm region">
@@ -84,9 +93,11 @@
                             <option value="fishhaven">Fish Haven</option>
                         </select>
                     </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Type of Storm</legend>
+                <!-- </fieldset>
+                <fieldset> -->
+                    <br><br>
+                    <!-- <legend>Type of Storm</legend> -->
+                    <div>Type of Storm</div>
                     <label class="sbs"><input type="checkbox" name="storm" value="yes"> Flash Flood</label>
                     <label class="sbs"><input type="checkbox" name="storm" value="yes"> Hail</label>
                     <label class="sbs"><input type="checkbox" name="stor
@@ -131,7 +142,7 @@
 
             </fieldset>
             <fieldset>
-                <legend>Please add comments, images or video links below:</legend>
+                <legend>Please add comments or images below:</legend>
                 <label id="comments"> </label><br>
                 <textarea id="cid_3" class="form-input-view" name="stormDescription"
                     data-component="textarea"></textarea>

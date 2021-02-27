@@ -98,15 +98,26 @@ form fieldset {
 
 form legend {
     color: #445ba9;
+    font-size: 1.75rem;
+    font-weight: bold;
     margin: 0 1rem 0;
     padding: 0 .5rem;
+}
+.yourinfotable {
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns:  20% auto;
+   grid-gap: 15px;
+   list-style-type: none;
+   
 }
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: black;
-    font-size:  .8rem;
+    font-size:  1.5rem;
+    font-weight: bold;
 }
 
 form label.top input, form label.top select {
@@ -141,7 +152,7 @@ form input.submitBtn {
     background-color: #083d77ff;
     color: white;
     font-size: 2rem;
-    border-radius: 1rem
+    border-radius: 1rem;
     padding: 1rem 1.5rem;
     margin: 5px 0 2rem 2%;
     width: 96%;
