@@ -103,7 +103,7 @@ form legend {
     margin: 0 1rem 0;
     padding: 0 .5rem;
 }
-.yourinfotable {
+#yourinfogrid {
    display: grid;
    grid-template-rows: 1fr 1fr 1fr 1fr;
    grid-template-columns:  20% auto;
@@ -119,8 +119,8 @@ form label.top, form div {
     font-size:  1.5rem;
     font-weight: bold;
 }
-
-form label.top input, form label.top select {
+/* form label.top input, form label.top select { */
+#yourinfogrid label.top input, #yourinfogrid label.top select{
     -webkit-appearance: none;
     /* display: top; */
     font-size: 1rem;
@@ -159,11 +159,15 @@ form input.submitBtn {
     max-width: 20rem;
     height: 100px;;
 }
-
-form label.top input:required {
+#yourinfogrid label.top input:required {
+/* #yourinfotable label.top input
+form label.top input:required  */
+/* form label.top input:required { */
     border-left: red solid 6px;
 }
 
+/* form label.top input:required:valid */
+/* .yourinfotable li.label.top input:required:valid  */
 form label.top input:required:valid {
     border-left: green solid 6px;
     /* changes validation to green if entered required field */

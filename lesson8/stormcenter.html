@@ -49,24 +49,14 @@
             <fieldset>
                 <!-- this breaks up the form into sections      -->
                 <legend>Your Information</legend>
-                <ul class="yourinfotable">
-                <li><label class="top">Full Name* </li><li><input type="text" name="fullname" pattern="[A-Z a-z]{5,}" required>
-                </label>
-                </li>
-                <li><label class="top">Email </li><li><input type="email" name="email" placeholder="someone@gmail.com">
-                </label>
-                </li>
-                <li>
-                <label class="top">Phone* </li><li><input type="tel" name="phone" placeholder="1235551234" required>
-                </label>
-                </li>
-                <li>
-                <label class="top">Zip Code* </li><li><input type="text" name="zip" placeholder="12345" pattern="[0-9]{5}"
-                        required> </label>
-                <!-- <label class="top">Zip Code*<input type="text" name="zip" inputmode="numeric" placeholder="12345" pattern="[0-9]{5}" required>  </label>  -->
-            </li>    
-            </ul>
+                <ul id="yourinfogrid">
+                <li><label class="top">Full Name* </label></li> <li><label><input type="text" name="fullname" pattern="[A-Z a-z]{5,}" required></label></li>
+                <li><label class="top">Email </label></li> <li><label><input type="email" name="email" placeholder="someone@gmail.com"></label></li>
+                <li><label class="top">Phone* </label></li> <li><label><input type="tel" name="phone" placeholder="1235551234" required></label></li>
+                <li><label class="top">Zip Code* </label></li> <li><label><input type="text" name="zip" placeholder="12345" pattern="[0-9]{5}" required> </label></li>    
+                </ul>
             </fieldset>
+
             <fieldset>
                 <legend>Storm Information</legend>
                 <!-- <fieldset> -->
@@ -164,7 +154,7 @@
     <script src="lesson8.js/primarynav.js"></script>
     <script src="lesson8.js/currentdate.js" onload="currentDate()"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="webfrontloadtable.js"></script>
+    <script src="lesson8.js/webfrontload.js"></script>
     <!-- these two scripts call the font library  -->
     <script src="lesson8.js/rating.js"></script>
 </body>
