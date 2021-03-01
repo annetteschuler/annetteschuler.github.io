@@ -63,7 +63,7 @@
       margin: 1rem .1rem;
       padding: .5rem 2%;
     }
-    #yourinfogrid {
+      #yourinfogrid {
       display: grid;
       grid-template-rows: 44px 1fr 1fr 1fr;;
       grid-template-columns:  15% auto;
