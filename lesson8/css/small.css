@@ -116,11 +116,16 @@ form legend {
    max-width: 760px;
 
 }
+#yourinfogrid input {
+  width: 80%;
+}
 
 input {
   font-size: 20px;
   padding: 7px;
-}
+ }
+
+
 
 /* form label.top, form div { */
 form#yourinfogrid, label.top, form div {
