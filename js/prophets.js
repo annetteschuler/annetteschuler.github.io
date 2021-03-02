@@ -7,9 +7,7 @@ fetch(requestURL)                 //feed the required agrument
     .then(function (jsonObject) {   //to work with the converted response data in the js object format
         console.table(jsonObject); //temporary checking for valid response and data parsing    
         for (let i = 0; i < prophets.length; i++) {  //loop through every record and process them into their own cards
-     }
-    } )    
-    );
+    
 
     const prophets = jsonObject['prophets'];    //store the results of the converted response into an array
 let card = document.createElement('section');
@@ -22,4 +20,6 @@ docuement.querySelector('div.cards').appendChild(card);
 
 image.setAttribute('src', prophets[i].imageurl);
 
-   
+}
+} )    
+);  
