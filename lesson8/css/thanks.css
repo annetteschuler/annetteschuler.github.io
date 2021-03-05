@@ -27,6 +27,44 @@ header {
 }
 
 
+nav button {
+  margin: .2rem 2%; 
+  background-color: transparent; 
+  border: none;
+  font-size: 1.6rem;
+  color: #083d77ff;
+}
+nav {
+  background-color: #f4d35e;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+nav ul { /* removes dots, moves text left and up */
+  list-style-type: none; 
+    padding: 0;
+    margin: 0;
+ } 
+nav ul li a { /* to make clickable, spread out */
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+/*   removes underlining */
+  color: #083d77ff;
+  border-top: 1px solid black;
+}
+
+nav ul li.active a {
+      background-color: #f95738ff;
+      color: #ebebd3ff;
+}
+
+nav ul li a:hover {
+  background-color: #ee964bff;
+ 
+ }
+nav ul.hide {display: none;}
+
+
 .clearfix:after { /* force an element not to collapse or lose color */
   content: "";
   display: table;
@@ -64,6 +102,74 @@ footer {
 	text-align: center;
   
 	}
+
+  /* medium css */
+/* 35em is also 560px when basefont is 16ps */
+@media only screen and (min-width: 35em) {
+ 
+
+      
+  } /* end of media query */
+
+  @media only screen and (min-width: 64rem) {
+    header {
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }  
+    div.banner {
+        margin-top: -5px;
+     }
+
+   header img {
+      width: 110px;
+    }
+    headings {
+      display: flex;
+      flex-direction: column;
+    }
+    .headings h1 {
+      font-size: 1.6rem;
+      margin: 0 0 17px;
+    }
+    .motto {
+      letter-spacing: 1pt;
+      margin-left: 20px;
+      font-size: .9rem;
+    }
+       
+    nav {
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff496+0,f4d35e+100 */
+  background: #fff496; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fff496 0%, #f4d35e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fff496 0%,#f4d35e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fff496 0%,#f4d35e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff496', endColorstr='#f4d35e',GradientType=0 ); 
+    /* delete two middle toggles, save one color and then darker version, copy and paste */
+      }
+      nav button {
+        display: none;
+    /*     get rid of button icon */
+      }
+      nav ul.hide {display: flex;}
+    /*   restores nav bar after js changed it */
+      /* nav ul li {
+        margin-left: 2%;
+      } */
+      nav ul li {
+       display: flex;
+       /* justify-content: center; */
+       flex: auto;
+      }
+      nav ul li a {
+        display: flex;
+        border: none;
+      /* border-right: 1px solid rgba(0,0,0,0.3); */
+         padding: .6rem 1.5rem; 
+    }
+ 
+    }
 
 
 
