@@ -53,10 +53,11 @@ footer {
         grid-template-columns: 1fr 1fr;
  
      }
-
+    }
     @media (min-width: 1000px) {
         main div {
             grid-template-columns: 1fr 1fr 1fr 1fr;
      
         }
-}
+    }
+    
