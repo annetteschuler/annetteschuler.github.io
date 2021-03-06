@@ -7,44 +7,50 @@ fetch(requestURL)                 //feed the required agrument
     .then(function (jsonObject) {   //to work with the converted response data in the js object format
         // console.table(jsonObject); //temporary checking for valid response and data parsing    
         const towns = jsonObject['towns'];     //store the results of the converted response into an array
-        for (let x = 0; x < towns.length; x++ {
-            if (towns[x].name == 'Fish Haven' || towns[x].name == 'Preston' || towns[x].name == 'Soda Springs') { //filters to the 3 towns
+        // for (let i = 0; i < towns.length; i++ ) {
+        //  if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") { //filters to the 3 towns
+        towns.forEach(town => {
+            if (town.name == "Fish Haven" || town.name == "Preston" || town.name == "Soda Springs") {
+      
         
         //creating html elements
 let card = document.createElement('section');
+let div = document.createElement('div');
 let h2 = document.createElement('h2');
 let name = document.createElement('h2');
 let motto = document.createElement('h3');
 let year = document.createElement('p');
 let population = document.createElement('p');
 let rain = document.createElement('p');
-let image = document.createElement('img');
+let photo = document.createElement('img');
 
 
-//adding content to each element
-name.textContent = town[x].name;
-motto.textContent = towns[x].motto;
-year.textContent = 'Year Founded: ' + towns[x].yearFounded; 
-population.textContent = 'Population' + towns[x].currentPopulation; 
-rain.textContent = 'Annual Rain Fall' + towns[x].averageRainfall + '"';
-image.setAttribute('src', towns[x].photo);
-image.setAttribute('alt', towns[x].name);
+//adding content to each element, use template literals
+div.setAttribute("class", `div`);
+name.textContent = `${town.name}`;
+motto.textContent = `${town.motto}`;
+year.textContent = `Year Founded: ${town.yearFounded}`; 
+population.textContent = `Population: ${town.currentPopulation}`; 
+rain.textContent = `Annual Rain Fall: ${town.averageRainfall}"`;
+photo.setAttribute("src", `images/${town.photo}`);
+photo.setAttribute("alt", `Photo of ${town.name}`);
 
 
-//add new elements to the page
-card.appendChild(h2);
-card.appendChild(name);
-card.appendChild(motto);
-card.appendChild(year);
-card.appendChild(population);
-card.appendChild(rain);
-child.appendChild(image);
+//add new elements to the page, you can just say append
+card.append(h2);
+card.append(name);
+card.append(motto);
+card.append(year);
+card.append(population);
+card.append(rain);
+card.append(photo);
 
 //imagesToLoad
-photo.setAttribute('src, 'images/'+ towns[x].photo');
-photo.setAttribute('alt', towns[x].name + ' ' + towns[x].order);
+photo.setAttribute('src', 'images/'+ town.photo);
+photo.setAttribute('alt', town.name + ' ' + town.order);
 
 
-document.querySelector('div.cards').appendChild(card);
-                 }         ;
+document.querySelector(".card").append(card);
+         }
+        });                     
 } );  

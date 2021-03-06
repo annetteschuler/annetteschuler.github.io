@@ -10,6 +10,22 @@
       margin-right: auto;
       
     }
+
+    section.card section {
+        display: flex;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px; 
+        padding: 10px;
+        align-items: center;
+        
+    }
+    section.card section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+      
+
 }
   
  

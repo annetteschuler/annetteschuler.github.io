@@ -81,14 +81,11 @@ h2 {
 
 
 /*----------- MAIN --------------*/
-picture.hero {
-   border: 5px solid #083d77ff;
-    
-}
+
 
 
 .chickenrow {
-    display: flex;
+    /* display: flex; */
     padding: 5px;
 
 }
@@ -111,6 +108,18 @@ section.news {
     background-color: #083d77ff;
     color: #f4d35e;
 	border: 5px solid #083d77ff;
+
+}
+
+section.card section {
+  background-color: #f4d35e;
+  border: 3px solid #083d77ff;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px; 
+  padding-bottom: 5px;
+
 }
 
 footer {
