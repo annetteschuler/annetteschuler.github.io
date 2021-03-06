@@ -1,5 +1,4 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-
 fetch(requestURL)                 //feed the required agrument       
     .then(function (response) {    //returns a Promise
         return response.json();

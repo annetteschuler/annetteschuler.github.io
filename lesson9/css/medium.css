@@ -5,17 +5,16 @@
 
     /* 64em is also 1028px when basefont is 16px */
   
- 
+  .hero {
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+}
   
  
-  /* iframe {
-    display: inline-block;
-  } */
+ 
   
-  
-/* 35em is also 560px (if basefont is 16px) this is medium */
-/* @media only screen and (min-width: 35rem) { */
-
 
     /*----------- BODY --------------*/
     
@@ -31,11 +30,5 @@
     
         /* nav ul li a{padding: .5rem 1rem;} */
     
-    
-    /*----------- MAIN --------------*/
-    
-    
-    
-    /*----------- FOOTER --------------*/
-        
-    } /* end of media query */
+       
+  

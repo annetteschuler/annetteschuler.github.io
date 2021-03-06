@@ -82,7 +82,7 @@ h2 {
 
 /*----------- MAIN --------------*/
 picture.hero {
-   border: 5 solid #083d77ff;
+   border: 5px solid #083d77ff;
     
 }
 
@@ -93,7 +93,7 @@ picture.hero {
 
 }
 .chicken img {
-    border: 3px solid grau;
+    border: 3px solid gray;
     box-shadow: 10px 15px 3px gray;
 }
 div.chickenstuff {
@@ -104,13 +104,13 @@ div.chickenstuff {
 section.events {
     background-color:#f4d35e;
     color: #083d77ff;
-	border: 5 solid #083d77ff;
+	border: 5px solid #083d77ff;
 
 }
 section.news {
     background-color: #083d77ff;
     color: #f4d35e;
-	border: 5 solid #083d77ff;
+	border: 5px solid #083d77ff;
 }
 
 footer {
