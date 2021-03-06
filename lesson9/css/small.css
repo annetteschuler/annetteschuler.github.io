@@ -3,7 +3,7 @@ body {
     background-color: #ebebd3ff;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    /* text-align: center; */
+    text-align: center; 
  }
      
 header, nav, main, footer, form {
@@ -29,11 +29,12 @@ header {
 }
 
 nav button {
-  margin: .2rem 2%; 
+  margin: .2rem 2%;  
   background-color: transparent; 
   border: none;
   font-size: 1.6rem;
   color: #083d77ff;
+  
 }
 nav {
   background-color: #f4d35e;
@@ -80,8 +81,37 @@ h2 {
 
 
 /*----------- MAIN --------------*/
+picture.hero {
+   border: 5 solid #083d77ff;
+    
+}
 
 
+.chickenrow {
+    display: flex;
+    padding: 5px;
+
+}
+.chicken img {
+    border: 3px solid grau;
+    box-shadow: 10px 15px 3px gray;
+}
+div.chickenstuff {
+    text-align: left;
+    margin-left: 15px;
+}
+
+section.events {
+    background-color:#f4d35e;
+    color: #083d77ff;
+	border: 5 solid #083d77ff;
+
+}
+section.news {
+    background-color: #083d77ff;
+    color: #f4d35e;
+	border: 5 solid #083d77ff;
+}
 
 footer {
 	background-color: #f4d35e;
@@ -94,13 +124,15 @@ footer {
         display: grid;
         grid-template-columns: 1fr auto ;
         grid-template-rows: 1fr 1fr 1fr auto;
+        padding: 5px;
+        height: 200px;
       
         }
       
         #wv {
           color: #083d77ff; 
           font-family: "Mountains of Christmas", cursive;  
-          font-size: 32px;
+          font-size: 26px;
         }
          .fav1 {
           grid-area: 1 / 1 / 2 / 2 ;
@@ -121,6 +153,9 @@ footer {
         .smallbox {
           align-items: center;
           margin: auto 10px;
+        }
+        .map {
+            max-width: 250px;
         }
 
 
