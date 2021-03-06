@@ -30,7 +30,7 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li class="active"> <a href="https://annetteschuler.github.io/lesson9/homeindex.html">Home</a></li>
+            <li class="active"> <a href="http://127.0.0.1:5500/lesson9/homeindex.htmll">Home</a></li>
             <li> <a href="https://annetteschuler.github.io/lesson5/preston-5.html">Preston</a></li>
             <li> <a href="#">Soda Springs</a></li>
             <li> <a href="#">Fish Haven</a></li>
@@ -41,12 +41,80 @@
     <main>
       
 
+        <picture class="hero">
+            <source media="(min-width:1100px)" srcset="images/idahofarmlg.jpg">
+              <source media="(min-width:800px)" srcset="images/idahofarmlg.jpg">
+            <source media="(min-width:600px)" srcset="images/idahofarmmed.jpg">
+              <source media="(min-width:400px)" srcset="images/idahofarmsmall.jpg">     
+              <img src="images/idahofarmsmall.jpg" alt="Idaho Farm">
+               </picture>       
+<br><br>
+
+               <section class="chickenrow">
+               <picture class="chicken">
+                <source media="(min-width:1100px)" srcset="images/chickenlg.jpg">
+                  <source media="(min-width:800px)" srcset="images/chickenlg.jpg">
+                <source media="(min-width:600px)" srcset="images/chickenmed.jpg">
+                  <source media="(min-width:400px)" srcset="images/chickensmall.jpg">     
+                  <img src="images/chickensmall.jpg" alt="Chicken of the Week">
+                   </picture> 
+
+        <div class="chickenstuff">
+           <p>Beatrice is Farmer Joe's prize chicken.  She lays enough eggs to make an omelet every day! </p>
+        </div>
+               </section>
+
+
+        <section class="events">
+            <h3> Upcoming Community Events:</h3>
+            <p>April 1:  Fools Run<br> April 2: Community sing<br>April 6: Rummage Sale<br> April 17: Easter Egg Hunt</p>
+
+        </section>
+        
+        <section class="news">
+            <h3>Idaho Community News</h3>
+            <p>News of the Week: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, 
+                purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc 
+                viverra imperdiet enim. </p>
+        </section>    
+        <section class="joke">
+            <p>Joke of the Week:  Why did the chicken cross the road?  To get to the other side!  Lol!!</p>
+        </section>
+
+        <section class="Preston">
+
+        </section>
+        
+          
+
+
+
+        
+
+        
 
 
 
 
 
     </main>
+    <footer>
+        <img src="images/favicon.ico" alt="wheather vane favicon"> <span id="wv">  Weathervane 2 Go - Contact Information</span>
+       <br><br>
+
+    <div class="bigbox">
+        <div class="smallbox">   
+            <img class="fav1" src="images/adzfav.png" alt="adzfav">
+                <p>12345 Main Street <br> Preston, ID  83263</p>
+            <img class="fav2" src="images/phonefav.png" alt="phonefav">
+                <p>999-999-9999</p>
+            <img class="fav3" src="images/emailfav.png" alt="emailfav">
+                 <p>weathervane2go.com</p>
+                </div>
+
+             <img class="map" src="images/prestonmap.png" alt="map of Preston">       
+ </div>
 
     <div class="social">
         <br>
@@ -63,7 +131,7 @@
 <script src="lesson9.js/primarynav.js"></script>
 <script src="lesson9.js/currentdate.js" onload="currentDate()"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="lesson6.js/webfrontload.js"></script>
+<script src="lesson9.js/webfrontload.js"></script>
 <!-- these two scripts call the font library  -->
 </body>
 <!--from video example <loom-container id="lo-engage-ext-container"></loom-container> -->
