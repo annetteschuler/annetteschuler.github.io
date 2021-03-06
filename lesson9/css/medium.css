@@ -1,0 +1,41 @@
+/* medium css */
+/* 35em is also 560px when basefont is 16ps */
+@media only screen and (min-width: 35em) {
+ 
+
+    /* 64em is also 1028px when basefont is 16px */
+  
+ 
+  
+ 
+  /* iframe {
+    display: inline-block;
+  } */
+  
+  
+/* 35em is also 560px (if basefont is 16px) this is medium */
+/* @media only screen and (min-width: 35rem) { */
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    
+    
+    
+    /*----------- NAVIGATION --------------*/
+        /* nav ul {margin-left: 2%;} */
+        /* nav ul li {width: auto;} */
+    
+        /* nav ul li a{padding: .5rem 1rem;} */
+    
+    
+    /*----------- MAIN --------------*/
+    
+    
+    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */
