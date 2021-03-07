@@ -72,6 +72,11 @@ section  {
   align-items: center;
    */
 }
+section.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
 section.card section {
   display: block;
   max-width: 250px;

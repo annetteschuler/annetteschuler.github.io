@@ -15,6 +15,7 @@ fetch(requestURL)                 //feed the required agrument
         
         //creating html elements
 let card = document.createElement('section');
+let infodiv = document.createElement('div');
 let div = document.createElement('div');
 let h2 = document.createElement('h2');
 let name = document.createElement('h2');
@@ -37,13 +38,15 @@ photo.setAttribute("alt", `Photo of ${town.name}`);
 
 
 //add new elements to the page, you can just say append
+card.append(infodiv);
 card.append(h2);
-card.append(name);
-card.append(motto);
-card.append(year);
-card.append(population);
-card.append(rain);
+infodiv.append(name);
+infodiv.append(motto);
+infodiv.append(year);
+infodiv.append(population);
+infodiv.append(rain);
 card.append(photo);
+
 
 //imagesToLoad
 photo.setAttribute('src', 'images/'+ town.photo);
