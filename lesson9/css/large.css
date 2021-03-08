@@ -61,26 +61,28 @@ section  {
    display: block;
    margin-left: auto
    margin-right: auto;
-  /* justify-center: center; */
- 
- 
+   padding: 10px;
 
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px; 
-  padding-bottom: 5px;
-  align-items: center;
-   */
 }
 section.card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  align-items: center; 
+  grid-gap: 10px;
 }
 section.card section {
   display: block;
-  max-width: 250px;
-  margin-left: -100;
+  width: 220px;
+  height: 590px;
+}
+
+section img {
+  max-width: 175px;
+  text-align: center;
+}
+section.card section:nth-child(even) img {
+    padding-left: 1px;
 
 }
     }
