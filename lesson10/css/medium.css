@@ -6,6 +6,7 @@
   /* 64em is also 1028px when basefont is 16px */
   .weathersummary {
     position: absolute;
+    height: 80%;
   }
   .hero img {
     /* margin: 1.25rem auto; */
