@@ -1,4 +1,4 @@
-const apiURL2 = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b512137a92df2e6909b0861d6839b12a';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b512137a92df2e6909b0861d6839b12a';
 
 console.log(apiURL2);
 
