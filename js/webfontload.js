@@ -1,7 +1,8 @@
 WebFont.load({
     google: {
       families: [
-        'Roberto', 'Playfair Display'
+        'Roberto', 'Playfair Display', 'Mountains of Christmas','Montserrat'
       ]
     }
   });
+
