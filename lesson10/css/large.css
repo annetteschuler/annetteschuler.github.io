@@ -43,7 +43,7 @@
       /*   restores nav bar after js changed it */
         /* nav ul li {
           margin-left: 2%; */
-        }
+      
         nav ul li {
           justify-content: center;
           flex: auto;
