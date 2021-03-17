@@ -92,6 +92,7 @@ h2 {
 .chicken img {
     border: 3px solid gray;
     box-shadow: 10px 15px 3px gray;
+    max-width: 200px;
 }
 div.chickenstuff {
     text-align: left;

@@ -56,9 +56,10 @@
      max-width: 1000px;
  }
 
- picture.chicken {
-   width: 1000px;
+ .chicken img {
+   max-width: 100%;
  }
+
  
 section  {
    display: block;
