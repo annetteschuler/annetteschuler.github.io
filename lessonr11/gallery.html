@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Idaho page week 6 assignment by Annette Schuler</title>
+     <meta name="description" content="Responsive Images and Font in Weather Site Plan in WDD230 Web 
+     Frontend Development at BYUI">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+     <link href="css/small.css" rel="stylesheet">
+     <link href="css/medium.css" rel="stylesheet">
+     <link href="css/large.css" rel="stylesheet">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+</head>
+    <body>
+    <header>
+     <picture><img src="images/drivingrooster.jpg" alt="logo of rooster driving"></picture>
+    <section><h1>Weathervane 2 Go</h1>
+    <div class="motto">"Don't be a birdbrain, check the Weathervane!"</div>
+    </section>
+</header>
+
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li> <a href="http://annetteschuler.github.io/lesson9/homeindex.html">Home</a></li>
+        <li> <a href="https://annetteschuler.github.io/lesson5/preston-5.html">Preston</a></li>
+        <li> <a href="#">Soda Springs</a></li>
+        <li> <a href="#">Fish Haven</a></li>
+        <li> <a href="https://annetteschuler.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+        <li class="active"> <a href="https://annetteschuler.github.io/lesson7/gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Weather Gallery</h2>
+    <div id="photoGallery">
+    <figure class="pg"> 
+        <img src="images/400x300.png" data-src="images/bluesky.jpg" 
+             alt="blue sky and clouds">
+        <figcaption>Blue Sky - Photo by Mabel Amber from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/cloudy.jpg" 
+             alt="cloudy sky and muddy road">
+        <figcaption>Cloudy Sky - Photo by freestocks.org from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/snow.jpg" 
+             alt="trees with snow and hoarfrost">
+        <figcaption>Snow - Photo by freestocks.org from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/rainbow.jpg" 
+             alt="rainbow">
+        <figcaption>Rainbow - Photo by Paweł Fijałkowski from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/fog.jpg" 
+             alt="fog and trees">
+        <figcaption>Fog - Photo by Darwis Alwan from Pexels</figcaption>
+    </figure>
+      <figure class="pg">
+        <img src="images/400x300.png" data-src="images/rain.jpg"
+             alt="rain">
+        <figcaption>Rain - Photo by Andrew Neel from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/field.jpg" 
+             alt="green field and fog">
+        <figcaption>Green Field and Fog - Photo by eberhard grossgasteiger from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/lightning.jpg" 
+             alt="lightning">
+        <figcaption>Lightning - Photo by freestocks.org from Pexels</figcaption>
+    </figure>
+    <figure class="pg">
+        <img src="images/400x300.png" data-src="images/sun.jpg" 
+             alt="sunrise">
+        <figcaption>Sunrise - Photo by freestocks.org from Pexels</figcaption>
+    </figure>
+</div>
+
+    </main>
+
+    <footer>
+        &copy; Weathervane 2 Go | Attributions | Annette Schuler <br>
+       <span id="currentDate"></span>
+       
+    </footer>
+<script src="lesson7.js/preston.js"></script>
+<script src="lesson7.js/preston.js" onload="currentDate()"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="lesson7.js/webfrontload.js"></script>
+<script src="lesson7.js/lazyloads.js">
+</script>
+</body>
+</html>

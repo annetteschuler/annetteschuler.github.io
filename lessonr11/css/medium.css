@@ -1,0 +1,24 @@
+/* medium css */
+/* 35em is also 560px when basefont is 16ps */
+@media only screen and (min-width: 35em) {
+ 
+
+    /* 64em is also 1028px when basefont is 16px */
+    .weathersummary {
+      position: absolute;
+      height: 80%;
+    }
+    .hero img {
+      /* margin: 1.25rem auto; */
+      max-width: 660px;
+      }
+  
+  table {
+    display: table;
+    width: 100%;
+  }
+  
+  /* iframe {
+    display: inline-block;
+  } */
+  }
