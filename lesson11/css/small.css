@@ -102,6 +102,7 @@ h2 {
 .hero {
   margin: 10px auto;
 }
+
 .weathersummary {
   top: 40px;
   left: 70px;
@@ -153,6 +154,46 @@ h4 {
   font-style: italic;
 }
 
+
+.chickenrow {
+  /* display: flex; */
+  padding: 5px;
+
+}
+.chicken img {
+  border: 3px solid gray;
+  box-shadow: 10px 15px 3px gray;
+  max-width: 200px;
+}
+div.chickenstuff {
+  text-align: left;
+  margin-left: 15px;
+}
+
+section.events {
+  background-color:#f4d35e;
+  color: #083d77ff;
+border: 5px solid #083d77ff;
+
+}
+section.news {
+  background-color: #083d77ff;
+  color: #f4d35e;
+border: 5px solid #083d77ff;
+
+}
+
+section.card section {
+background-color: #f4d35e;
+border: 3px solid #083d77ff;
+max-width: 350px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px; 
+padding-bottom: 5px;
+
+}
+
 footer {
   background-color: #f4d35e;
   color: #083d77ff;
@@ -180,7 +221,9 @@ footer {
   .fav3 {
     grid-area: 3 / 1 / 4 / 2 ;
   }
-  
+  .map {
+    max-width: 100%;
+  }
 
   .bigbox {
     display: flex;
