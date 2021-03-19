@@ -1,16 +1,28 @@
 const apiURL3 = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-console.table(apiURL3);
+// console.table(apiURL3);
 
 fetch(apiURL3)
   .then((response) =>response.json())
   .then((jsObject) =>{
 
     
-             
-           let townPreston = jsObject.towns.filter(town => town.name === "Preston");
-           let events = townPreston[0].events;
+        
+        let currentURL = document.URL;
+        let currentTown;
 
+        if (currentURL.includes('preston')) {
+            currentTown = "Preston";
+        } else if (currentURL.includes('fishhaven')) {
+            currentTown = "Fish Haven";
+        } else if (currentURL.includes('sodasprings')) {
+            currentTown = "Soda Springs";
+        } 
+             
+        let town = jsObject.towns.filter(town => town.name === currentTown);
+
+           let events = town[0].events;
+            
            let list = document.createElement("ul");
 
            for (let i = 0; i < events.length; i++)  {
