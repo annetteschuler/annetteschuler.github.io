@@ -155,6 +155,33 @@ h4 {
 }
 
 
+#photoGallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+}
+
+figure.pg {
+  /* box-shadow: 0px 0px 15px 1px #888888; */
+  padding: 10px;
+  margin: 0;
+}
+
+figure.pg img {
+  max-width: 375px;   
+  height: auto;   
+}
+
+figcaption {
+  display: none;
+  padding: 5px;
+}
+
+
+
+
+
+
 .chickenrow {
   /* display: flex; */
   padding: 5px;

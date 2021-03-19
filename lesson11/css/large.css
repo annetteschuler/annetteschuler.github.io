@@ -93,4 +93,37 @@
           padding-left: 1px;
       
       }
+      #photoGallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        max-width: 800px;
+        max-height: 600px;
+                 
+      }
+      
+      figure.pg {
+         box-shadow: 0px 0px 15px 1px #888888;
+     
+      }
+
+      figure.pg img {
+        /* max-width: 500px;    */
+        max-width: 240px;
+        /* height: auto;   */
+      }
+      
+
+      figure.pg:hover {
+         box-shadow: 3px 3px 10px black;
+    }
+
+      figcaption {
+        display: flex;
+      }
+
+      .map {
+        max-width: 400px;
+      }
+
+
     }

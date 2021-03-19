@@ -13,7 +13,21 @@
       max-width: 560px;
       }
 
+
       
+      #photoGallery {
+        grid-template-columns: 1fr 1fr;
+      }
+      figure.pg img {
+        /* max-width: 500px;    */
+        max-width: 300px;
+
+      
+      figcaption {
+        display: none;
+      }
+
+
     section.card section {
       display: grid;
       grid-template-columns: 1fr 1fr;
