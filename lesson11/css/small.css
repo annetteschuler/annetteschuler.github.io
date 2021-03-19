@@ -11,8 +11,6 @@ header, nav, main, footer  {
   max-width: 760px;
   }
 
-
-
 header { 
     background-color: #083d77ff;
     color: #ebebd3ff;
@@ -29,8 +27,6 @@ header {
   border: 3px solid #f4d35e;
   margin-top: -5px;
  }
-  /* width: 100%  */
-  /* border: 3px solid #f4d35e; */
 
  header img {
     width: 80px;
@@ -57,7 +53,6 @@ nav ul li a { /* to make clickable, spread out */
   display: block;
   padding: .8rem 2%;
   text-decoration: none;
-/*   removes underlining */
   color: #083d77ff;
   border-top: 1px solid black;
 }
@@ -70,13 +65,17 @@ nav ul li.active a {
 nav ul li a:hover {
   background-color: #ee964bff;
  }
-nav ul.hide {display: none;}
+
+nav ul.hide {
+  display: none;
+}
 
 .clearfix:after { /* force an element not to collapse or lose color */
   content: "";
   display: table;
   clear: both;
 }
+
 h2 {
   font-family: "Mountains of Christmas", cursive;  
   color: #083d77ff;
@@ -91,9 +90,11 @@ h2 {
     padding: 15px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .herodiv {
     position: relative;
   }
+
 .hero img {
   margin: 1.25rem auto;
   max-width: 360px;
@@ -113,12 +114,6 @@ h2 {
   box-shadow: 0 0 50px #777;
   max-width: 750px;
 }
-
-/* section.fiveday {
-   display: none; 
-   display: inline-block; 
- max-width: 660px;
-} */
 
 border table, td, th {
   border: 1px solid black;
@@ -148,11 +143,25 @@ div.article {
 #artimg {
   box-shadow: 0 0 30px black;
   max-width: 300px;
-
 }
+
 h4 {
   font-style: italic;
 }
+
+ #events {
+  background-color: #f4d35e;
+  color: #083d77ff;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px; 
+}
+
+#events h2 {
+  text-decoration: underline;
+} 
+
 
 
 #photoGallery {
@@ -178,14 +187,9 @@ figcaption {
 }
 
 
-
-
-
-
 .chickenrow {
   /* display: flex; */
   padding: 5px;
-
 }
 .chicken img {
   border: 3px solid gray;
@@ -195,6 +199,10 @@ figcaption {
 div.chickenstuff {
   text-align: left;
   margin-left: 15px;
+ }
+
+.article p {
+  padding: 20px;
 }
 
 section.events {
@@ -203,6 +211,8 @@ section.events {
 border: 5px solid #083d77ff;
 
 }
+
+
 section.news {
   background-color: #083d77ff;
   color: #f4d35e;
@@ -220,12 +230,6 @@ margin-bottom: 5px;
 padding-bottom: 5px;
 
 }
-
-footer {
-  background-color: #f4d35e;
-  color: #083d77ff;
-  padding: 5px;
-  }
 
 .smallbox {
   display: grid;
@@ -261,3 +265,8 @@ footer {
     align-items: center;
     margin: auto 10px;
   }
+  footer {
+    background-color: #f4d35e;
+    color: #083d77ff;
+    padding: 5px;
+    }
