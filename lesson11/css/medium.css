@@ -18,9 +18,9 @@
       #photoGallery {
         grid-template-columns: 1fr 1fr;
       }
-      figure.pg img {
+      /* figure.pg img {
         max-width: 300px;
-      }
+      } */
 
     section.card section {
       display: grid;

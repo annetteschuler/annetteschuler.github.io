@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preston Idaho page week 10 assignment by Annette Schuler</title>
-     <meta name="description" content="Responsive Menu in Weather Site Plan in WDD230 Web 
+    <title>Soda Springs Idaho page week 11 assignment by Annette Schuler</title>
+     <meta name="description" content="Soda Springs Page in Weather Site in WDD230 Web 
      Frontend Development at BYUI">
      
      <!-- <link rel="preconnect"   href="https://fonts.gstatic.com"> -->
@@ -21,9 +21,9 @@
 </head>
     <body>
     <header>
-        <div id="bannerdiv">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the City Park Pavilion.
+        <div id="bannerdiv">Saturday = Soda Springs Pancakes in the Park!  9:00 a.m. Saturday at the City Park Pavilion.
         </div> 
-   <picture><img src="images/drivingrooster-copy.jpg" alt="logo of rooster driving"></picture>
+   <picture><img src="images/drivingrooster.jpg" alt="logo of rooster driving"></picture>
     <section><h1>Weathervane 2 Go</h1>
     <div class="motto">"Don't be a birdbrain, check the Weathervane!"</div>
     </section>
@@ -79,17 +79,18 @@
             <td><span id="imagesrc4"></span> &nbsp; <span><img src="#" alt="" id="icon4"></span> <span id="forecast4"></span>&deg;F</td>
             <td><span id="imagesrc5"></span> &nbsp; <span><img src="#" alt="" id="icon5"></span> <span id="forecast5"></span>&deg;F</td>
          
-            <!-- <td><img src="https://img.icons8.com/doodle/48/000000/sun--v1.png" alt="sun icon"> 80 F</td> 
-            <td><img src="https://img.icons8.com/doodle/48/000000/winter.png" alt="winter icon"> 32 F</td>
-            <td><img src="https://img.icons8.com/doodle/48/000000/snow--v1.png" alt="snow icon"> 32 F</td>
-            <td><img src="https://img.icons8.com/doodle/48/000000/rain--v1.png" alt="rain icon"> 60 F</td>
-            <td><img src="https://img.icons8.com/doodle/48/000000/wind.png" alt="wind icon"> 75 F"</td> -->
+          
         </tr>
     </table>
    </section>
      <br>  <br><br>
+     <section id="events">
+        <h2>Upcoming Events:</h2>
+        <div id="eventList"></div>
+     </section>   
 
-     <!-- <div class="contentbox">Article</div> -->
+     <br><br><br>
+
     <div class="article">
        
     <h3>Chickens Who Love to Eat when the Weather's Good!</h3>
@@ -145,12 +146,11 @@
    <span id="currentDate"></span>
    
 </footer>
-<script src="lesson10.js/primarynav.js"></script>
-<script src="lesson10.js/currentdate.js" onload="currentDate()"></script> 
-<script src="lesson10.js/banner.js" onload="banner()"></script>
-<script src="lesson10.js/forecast1.js"></script> 
-                        <!-- this includes windchill  -->
-<script src="lesson10.js/forecast2.js"></script>
+<script src="js/primarynav.js"></script>
+<script src="js/currentdate.js" onload="currentDate()"></script> 
+<script src="js/banner.js" onload="banner()"></script>
+<script src="js/sodaforecast.js"></script> 
+<script src="js/events.js"></script> 
 
 </body>
 
