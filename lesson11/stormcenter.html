@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storm Center form page - week 8 assignment by Annette Schuler</title>
+    <title>Storm Center form page - week 11 assignment by Annette Schuler</title>
     <meta name="description" content="Storm Center including form in WDD230 Web 
      Frontend Development at BYUI">
 
@@ -80,14 +80,13 @@
                             <option value="fishhaven">Fish Haven</option>
                         </select>
                     </label>
-                <!-- </fieldset>
-                <fieldset> -->
+              
                     <br><br>
                     <div>Type of Storm</div>
                     <label class="top">
                         <input list="typeofstorm" name"typeofstorm" id="type">
                         <datalist id="typeofstorm">
-                        <!-- <select name="typeofstorm"> -->
+                     
                             <option value="">Select Storm Type </option> 
                                     <!-- this makes the default not assigned a real value -->
                             <option value="Flash Flood">
@@ -96,21 +95,11 @@
                             <option value="Thunderstorm">
                             <option value="Tornado">
                         </datalist>
-                            <!-- </seletct> -->
+                           
                            </label>
 
                            
-                    <!-- <legend>Type of Storm</legend> -->
-                    <!-- <div>Type of Storm</div>
-                    <label class="button"><input type="checkbox" name="storm" value="yes"> Flash Flood</label>
-                    <label class="sbs"><input type="checkbox" name="storm" value="yes"> Hail</label>
-                    <label class="sbs"><input type="checkbox" name="storm" value="yes"> Hurricaine</label>
-                    <label class="sbs"><input type="checkbox" name="storm" value="yes"> Thunderstorm</label>
-                    <label class="sbs"><input type="checkbox" name="storm" value="yes"> Tornado</label>  -->
-
-
-
-                    <div>Storm Severity</div>
+                                <div>Storm Severity</div>
                     <label class="rating">Rating: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                             oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -164,13 +153,12 @@
         <span id="currentDate"></span>
 
     </footer>
-    <script src="lesson8.js/primarynav.js"></script>
-    <script src="lesson8.js/currentdate.js" onload="currentDate()"></script>
+    <script src="js/primarynav.js"></script>
+    <script src="js/currentdate.js" onload="currentDate()"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="lesson8.js/webfrontload.js"></script>
-    <!-- these two scripts call the font library  -->
-    <script src="lesson8.js/rating.js"></script>
+    <script src="js/webfrontload.js"></script>
+    <script src="js/rating.js"></script>
 </body>
-<!--from video example <loom-container id="lo-engage-ext-container"></loom-container> -->
+
 
 </html>

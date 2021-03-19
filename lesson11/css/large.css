@@ -124,6 +124,24 @@
       .map {
         max-width: 400px;
       }
+      form label.sbs {
+        padding: .4rem 0;
+    }
+    form fieldset {
+      margin: 1rem .1rem;
+      padding: .5rem 2%;
+    }
+      #yourinfogrid {
+      display: grid;
+      grid-template-rows: 44px 1fr 1fr 1fr;;
+      grid-template-columns:  15% auto;
+      grid-gap: 15px;
+      list-style-type: none;
+      margin: 1.25rem auto;    
+      max-width: 760px;
+   
+      /*added to fix screen margins*/
+    }
 
 
     }

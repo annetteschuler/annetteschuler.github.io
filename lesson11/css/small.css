@@ -176,6 +176,117 @@ h4 {
 #events h2 {
   text-decoration: underline;
 }
+main {
+  padding: 0 2%;
+  min-height: 20rem;
+}
+
+/* FORM */
+fieldset {
+background-color: #f4d35e;
+}
+
+form fieldset {
+  margin: 0rem 0;
+  background-color: #f4d35e;
+  border: 1px solid #083d77ff;
+  border-radius: 10px;
+  padding: 1rem 2%;
+  
+}
+
+form legend {
+  color: #445ba9;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 0 1rem 0;
+  padding: 0 .5rem;
+}
+#yourinfogrid {
+ display: grid;
+ grid-template-rows: repeat(8, 12.5%);
+ grid-template-columns:  auto;
+ grid-gap: 5px;
+ list-style-type: none;
+ margin: 1.25rem auto;    
+ max-width: 760px;
+
+}
+#yourinfogrid input {
+width: 80%;
+}
+
+input {
+font-size: 20px;
+padding: 7px;
+}
+
+
+
+/* form label.top, form div { */
+form#yourinfogrid, label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size:  1.2rem;
+  font-weight: bold;
+}
+
+
+form label.sbs {
+  display: block;
+  padding: .75rem 2px;
+  color: #555;
+}
+
+
+h3.warning {
+background-color: white;
+color: #f95738ff; 
+font-size: 1.5rem;
+font-weight: bold;
+padding: 3px;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #083d77ff;
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  margin: 5px 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  height: 100px;;
+}
+
+/* form label.top input:required { */
+input:required {
+  border-left: red solid 6px;
+}
+
+/* form label.top input:required:valid { */
+input:required:valid {
+  border-left: green solid 6px;
+  /* changes validation to green if entered required field */
+}
+
+#cid_3 {
+width: 90%;
+height: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
