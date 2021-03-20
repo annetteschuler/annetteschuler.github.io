@@ -1,4 +1,4 @@
-// date last modified
+
 // var string = document.dateLastModified;
 
 // alert(document.lastModified);
