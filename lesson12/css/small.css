@@ -1,5 +1,9 @@
 body {
-  background-color: #ebebd3ff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #424B54;
+  color: #EBCFB2;
   font-size: 16px;
   font-family: "Lato", sans-serif;
   margin: 20px;
@@ -7,8 +11,8 @@ body {
 
 
 header {
-  background-color: #083d77ff;
-  color: #ebebd3ff;
+  background-color: #C5BAAF;
+  color: #424B54;
   font-family: "Lobster", cursive;
   display: flex;
   flex-flow: column;
@@ -34,9 +38,10 @@ h3 {
   font-size: 1.5rem;
 }
 nav {
-  background-color: #ebebd3ff;
+  background-color: #EBCFB2;
+  color: #424B54;
   text-align: center;
-  box-shadow: 0 2px 15px #ee964b;
+  
 }
 
 nav ul {
