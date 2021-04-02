@@ -16,93 +16,46 @@
 
 <body>
 <header>
-    <img src="images/rochesterlogo.png">
-    <h1>Rochester Chamber</h1>
-   
-    <h2>Connecting Commerce and Community in Med City</h2>
-   </header>
+    <div class="hero-image">
+    <picture><img src="images/rochesterlogo.png"></picture>
+    <div class="headtext">
+    <h1>Rochester Chamber of Commerce</h1></div>
+    <div class="motto"><h2>Connecting Commerce and Community in Med City</h2></div>
+    </div>
+</header>
 
-   <nav>
+   <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
     <ul>
-        <li class="active"><a href="../lesson12/homeindex.html">homeindex.html">Home</a></li> 
+        <li class="active"><a href="../lesson12/homeindex.html" homeindex.html">Home</a></li> 
         <li><a href="../lesson12/rochestercity.html">Rochester</a></li>
 		<li><a href="../lesson12/join.html">Join</a></li>
 		<li><a href="../lesson12/directory.html">Directory</a></li>
         <li><a href="../lesson12/contactus.html">Contact Us</a></li>
     </ul>
     </nav>
-<!--
-    <main>
-            <section class="Target">
-            <h3>Target Audience and Personas</h3>
-            <p>The target audience of Weather Vane 2 Go is described below: <br>
-                <b>Who:</b>  Adults, children, visitors, and families who are interested in weather forecasts <br>
-                <b>Age:</b>  10-100<br>
-                <b>Technology:</b>  They own a computer, tablet or smart phone and possess basic internet navigation skills<br>
-                <b>Income:</b>  Income levels will typically vary between no income and $60,000 annually<br>
-                <b>Motivation:</b>  Improve safety and enjoyment of a trips and daily activities with rooster humor.
-            </p>
-            </section>
-            <section class="firstPersona">
-               
-                <h3>John Persona</h3>
-                <img src="images/Nate.png" alt="headshot of a 12yr old boy">
-                <p>
-                <b>Occupation:</b>  Student
-                <br><b>Demographics and Education:</b>  12 years old attending 7th grade at Preston Middle School.  Oldest of 4.  
-                <br>Delivers newspapers, mows lawns and shovels snow.
-                <br><b>Goals and motivation for using the site:</b>  Learn what to wear for school and appropriate weather for outdoor jobs.
-                <br><b>Social:</b> Very active individual, loves being outdoors with siblings and friends. Enjoys hikes, camping and collecting rocks.
-                <br><b>Technology:</b> Uses Kindle Fire.  Parents haven’t bought him his own phone yet, but he’s working on it.  He is saving up for one.  
-                He doesn’t get great cell reception everyplace in town, so he isn’t in too much of a hurry. Uses Microsoft Office for school and also 
-                knows how to search the internet for school projects.
-                <br><b>Quote:</b>  “I can’t wait till I am old enough to drive.”
-            </p>   
-            </section>
-            <section class="secondPersona">
-                <h3>Mary Persona</h3>
-                    <img src="images/Jen.png" alt="headshot of an adult woman">
-                   <p>
-                    <b>Occupation:</b>Grocery Store Cashier/Part-time Daycare/Seasonal Ranger
-                    <br><b>Demographics and Education:</b>  26 years old.  High school diploma, one semester of Jr. College. Grew up in Preston on a chicken farm.  
-                    Her fiancé is a chicken farmer.
-                    <br><b>Goals and motivation for using the site:</b>  Learn what to wear for work and appropriate weather and road conditions for drives 
-                    to Yellowstone.
-                    <br><b>Social:</b> Very active individual, loves being outdoors. Loves to take road trips to explore new places.  Enjoys hikes, camping, 
-                    canoeing and rock climbing. 
-                    <br><b>Technology:</b> Uses Dell laptop purchased online and smartphone. Has online accounts for work, insurance, banking, and social media. 
-                    Checks social media daily to keep in touch with friends and family.  Knows Microsoft office, Excel and PowerPoint.  
-                    <br><b>Quote:</b>  “I’d rather be outside. There’s always time for one more adventure.”
-                    </p>
-                </section>           
-           <section class="Scenarios">
-                <h3>Scenarios</h3>
-                <ol class="Scenarios">
-                <li>What should I wear to school (or work) today?</li>
 
-                <li>What are the road conditions like in Preston (or other nearby cities)?</li>
-                
-                <li>What gear should I plan to bring on my hike?</li>
-                
-                <li>Is it a good idea to go camping this weekend?</li>
-                
-                <li>Will I need to give the chickens extra water or protection from a storm?</li>
-                </ol> 
-            </section> 
+   <main>
+   </main> 
     
-    </main> -->
-       <footer>
-        <p>
+   <footer>
+        <h3>Contact Us:</h3>
+        <p>123 Main Street, Rochester, MN  55901<br>507-555-5555<br>rochesterchamber.com</p>
+        <a href="https://www.facebook.com"><img src="images/fb.jpg" alt="facebook icon"></a> 
+        <a href="https://www.twitter.com"><img src="images/tw.jpg" alt="twitter icon"></a>
+        <p>          
           &copy; <span id="copyrightYear"></span> | Annette Schuler | Minnesota |
-          <a class="linkcolor" href="https://www.byui.edu/online">BYUI Online Learning</a>
+          <br>
+         <!-- <a class="linkcolor" href="https://www.byui.edu/online">BYUI Online Learning</a> -->
         </p>
         <div class="date">Last Updated: <span id="lastModified"></span></div>
+        <a href="../lesson12/attributions.html">Attributions</a>
+        
       </footer>
+      <script src="js/primarynav.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
       <script src="js/webfrontload.js"></script>
-
       <script src="js/datelastmodified.js"></script>
       
-       
  </body>
  </html>
