@@ -17,7 +17,8 @@
 <body>
 <header>
     <div class="hero-image">
-    <picture><img src="images/rochesterlogo.png"></picture>
+    <picture><img src="images/rochesterlogo.png" alt="logo of Rochester Chamber of Commerce, 
+        a stethescope shaped like MN with a heart at Rochester"></picture>
     <div class="headtext">
     <h1>Rochester Chamber of Commerce</h1></div>
     <div class="motto"><h2>Connecting Commerce and Community in Med City</h2></div>
@@ -26,8 +27,8 @@
 
    <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776;</button>
-    <ul>
-        <li class="active"><a href="../lesson12/homeindex.html" homeindex.html">Home</a></li> 
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="../lesson12/homeindex.html">Home</a></li> 
         <li><a href="../lesson12/rochestercity.html">Rochester</a></li>
 		<li><a href="../lesson12/join.html">Join</a></li>
 		<li><a href="../lesson12/directory.html">Directory</a></li>
@@ -36,23 +37,56 @@
     </nav>
 
    <main>
+       <h2>Who are we? </h2>
+       <p>The Rochester Chamber of Commerce is a voluntary partnership of 
+           businesses and professionals working together to build a healthy
+           economy and improve the quality of life in Rochester, Minnesota.
+       </p>
+       <section class="ads"><h2>Spotlight Member Ads</h2>
+        <div class="totalimage">
+            <img src="images/totalimage.jpg" alt="total image photo of salon">
+            <p>20 2nd Ave SW (Subway Level)<br>
+                Rochester, MN 55902<br>
+                507-289-4920 </p>
+            <a href="https://www.downtownrochestermn.com/go/total-image-hair-salon">
+                Total Image Hair Salon</a>
+            </div>
+        <div class="stylebyhanny">
+            <img src="images/stylebyhanny.jpg" alt="style by Hanny's photo of store">
+            <p>20 Second Avenue SW, Suite #S23<br>
+                Rochester, MN 55902<br>
+                507.287.0028 | 800.677.8552
+            </p>
+            <a href="https://www.hannys.com/style">Style by Hanny's</a>
+            </div>
+        <div class="civiccenter">
+            <img src="images/civiccenter.jpg" alt="Mayo Civic Center photo">
+            <p>
+                30 CIVIC CENTER DRIVE SE<br>
+                ROCHESTER MN 55904<br>
+                Main Line  507 361 5040<br>
+                Box Office  507 361 5050 </p>
+            <a href="https://www.mayociviccenter.com/">Mayo Civic Center</a>
+            </div>    
+       </section>
+
+
    </main> 
     
    <footer>
-        <h3>Contact Us:</h3>
+    <a href="../lesson12/contactus.html"><h3>Contact Us</h3></a>
         <p>123 Main Street, Rochester, MN  55901<br>507-555-5555<br>rochesterchamber.com</p>
         <a href="https://www.facebook.com"><img src="images/fb.jpg" alt="facebook icon"></a> 
         <a href="https://www.twitter.com"><img src="images/tw.jpg" alt="twitter icon"></a>
         <p>          
           &copy; <span id="copyrightYear"></span> | Annette Schuler | Minnesota |
           <br>
-         <!-- <a class="linkcolor" href="https://www.byui.edu/online">BYUI Online Learning</a> -->
         </p>
         <div class="date">Last Updated: <span id="lastModified"></span></div>
         <a href="../lesson12/attributions.html">Attributions</a>
         
       </footer>
-      <script src="js/primarynav.js"></script>
+      <script src="js/primarynav12.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
       <script src="js/webfrontload.js"></script>
       <script src="js/datelastmodified.js"></script>

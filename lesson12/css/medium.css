@@ -1,39 +1,48 @@
-@media only screen and (min-width: 37.5em) {
+    /* @media only screen and (min-width: 37.5em) { */
+        @media (min-width: 481px) and (max-width: 1024px) {
+        header {
+            background-image: url(../images/headingcityhallmed600.jpg);
+            /* min-width: 760px; */
+           
+       } 
+
+       .clearfix {
+        margin-left: auto;
+        margin-right: auto;
+      }
 	
     nav ul { 
         display: flex;
-
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     }
-
-/* Inline-Block             */
-/*
-    nav li {display: inline-block;}
-*/
-
-/* Float                    */
-/*
-    nav li {float:left; margin-right:15px;}
-    main {clear:both;}
-*/
-
-/*******************************************************/
 
 nav a {
 font-size: 1rem;
 }
-main {
-grid-template-columns: 1fr;
+
+nav button {
+    display: none;
+/*     get rid of button icon */
+  }
+  nav ul.hide {display: block;}
+/*   restores nav bar after js changed it */
+  /* nav ul li {
+    margin-left: 2%; */
+
+  nav ul li {
+    /* justify-content: center; */
+    float: left;
+    /* flex: auto; */
+ }
+  nav ul li a {
+  border: none;
+  /* border-right: 1px solid rgba(0,0,0,0.3); */
+  padding: .4rem 1.7rem;}
+/*   this fixes the style of the nav bar */
+
+
+footer {
+  width: 760px;
 }
-article:nth-child(3) {
-grid-column: span 2;
 }
-/* main picture {
-display: block;
-}
-main picture img {
-width: 100%;
-height: auto;
-border: 1px solid #bbb;
-} */
-}
+  
