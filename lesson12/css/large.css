@@ -1,11 +1,24 @@
-@media only screen and (min-width: 60em) {
+/* @media only screen and (min-width: 60em) { */
+	/* @media only screen and (min-width: 1025px) { */
+		@media screen and (min-width: 1025px) {
+	header {
+		 background-image: url(../images/headingcityhalllg760.jpg);
+		 /* min-width: 760px; */
+	} 
+	/* body {
+		min-width: 760px;
+	} */
+
+    nav ul { 
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
 	nav a {
 		font-size: 1.1rem;
 	}
-	main {
-		grid-template-columns: 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 1;
-	}
+	/* nav ul li a (
+		padding: .6rem 1rem;
+	) */
+
 }
