@@ -1,6 +1,6 @@
 /* @media only screen and (min-width: 60em) { */
 	/* @media only screen and (min-width: 1025px) { */
-		@media screen (min-width: 1025px) {
+		@media screen and (min-width: 64rem) {
 	header {
 		 background-image: url(../images/headingcityhalllg760.jpg);
 		 /* min-width: 760px; */

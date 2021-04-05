@@ -2,8 +2,7 @@
         @media (min-width: 481px) and (max-width: 1024px) {
         header {
             background-image: url(../images/headingcityhallmed600.jpg);
-            /* min-width: 760px; */
-           
+                  
        } 
 
        .clearfix {
