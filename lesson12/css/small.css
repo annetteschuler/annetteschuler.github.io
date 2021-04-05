@@ -236,20 +236,24 @@ div.totalimage, .stylebyhanny, .civiccenter {
   grid-area: 7 / 1 / 8 / 6;
   background-color: #D5ACA9; 
   color: #424B54;
+  padding: 5%;
 }
 
 section.threeday {
-  grid-area: 8 / 3 / 9 / 5;
+
+  grid-template-columns: 2 4;
+  grid-template-rows: 8 9;
   top: 40px;
-  left: 70px;
-  bottom: 40px;
+  margin-left: 50%;
+  bottom: 6%;
   background: #B38D97; 
   border: 1px solid white;
-  padding: .5rem;
-  box-shadow: 0 0 50px #777;
+  padding: 1.5rem;
+
+  /* box-shadow: 0 0 50px #777; */
   max-width: 750px;
   height: 150px;
-  }
+  
   background-color: white;
   border: 2px solid black;
 }
