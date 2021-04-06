@@ -45,8 +45,11 @@
             <p><span id="alerts"></span></p>
         </div> -->
         
-     <div id="bannerdiv"><h2>Weather Alert!</h2>
-        <a href="#"><img class="weatheralert"><p><span id="alerts"></span></p></a>
+     <div id="bannerdiv">
+        <!-- <a href="#"><img class="weatheralert" alt="closable weather banner"><p><span id="alerts"></span></p></a>
+        <a href="#" onclick="weatherWarn('bannerdiv')" id="weatherclear">X</a> -->
+
+        <a href="#"><p><span id="alerts"></span></p></a>
         <a href="#" onclick="weatherWarn('bannerdiv')" id="weatherclear">X</a>
         </div> 
            
@@ -63,7 +66,7 @@
         <div class="totalimage">
             <img src="images/totalimage.jpg" loading="lazy" alt="total image photo of salon" sizes="100vw"  
             srcset="images/totalimagemed.jpg 300w,
-            images/totalimage.jpg 600w">
+            images/totalimage.jpg 700w">
             <p>20 2nd Ave SW (Subway Level)<br>
                 Rochester, MN 55902<br>
                 507-289-4920 </p>
@@ -73,7 +76,7 @@
         <div class="stylebyhanny">
             <img src="images/stylebyhanny.jpg" loading="lazy" alt="style by Hanny's photo of store" sizes="100vw" 
             srcset="images/stylebyhannymed.jpg 300w,
-            images/stylebyhanny.jpg 600w">
+            images/stylebyhanny.jpg 700w">
             <p>20 Second Avenue SW, Suite #S23<br>
                 Rochester, MN 55902<br>
                 507.287.0028 | 800.677.8552
@@ -83,7 +86,7 @@
         <div class="civiccenter">
             <img src="images/civiccenter.jpg" loading="lazy" alt="Mayo Civic Center photo" sizes="100vw" 
             srcset="images/civiccentermed.jpg 300w,
-            images/civiccenter.jpg 600w">
+            images/civiccenter.jpg 700w">
             <p>
                 30 CIVIC CENTER DRIVE SE<br>
                 ROCHESTER MN 55904<br>
@@ -107,15 +110,11 @@
             <p>Current Description: <span id="current-description"></span></p>
             <p>Humidity: <span id="current-humidity"></span>%</p>
         </section>
-        
-
-       
-       
-         
+           
 
 
         <!-- 3-day forecast -->
-        <section class="threeday">
+        <div class="threeday">
             <h3>3-Day Forecast</h3>
         <table>
             
@@ -131,7 +130,7 @@
                 <td><span id="forecast3"></span>&deg;F</td>            
             </tr>
         </table>
-       </section>
+    </div>
 
        </section>
 

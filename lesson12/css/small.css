@@ -57,14 +57,6 @@ header img {
   padding-top: 0;
 }
 
-/* header,
-nav,
-main,
-footer {
-  max-width: 767px;
-  margin: 0 auto;
-} */
-
 h1 {
   font-size: 2.5rem;
 }
@@ -81,7 +73,7 @@ h2 {
 
 .clearfix nav button {
   margin: .2rem 2%; 
-  margin-left: 10px;
+  justify-content: center;
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
@@ -99,9 +91,9 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
+
  nav ul li {
   padding: 0px;
   flex: 1 1 auto; 
@@ -118,9 +110,8 @@ nav ul li a {
  .active {
   background-color: #B38D97; 
   color: #424B54;  
-  
-  /* height: auto; */
 }
+
 .active a:hover {
   background-color:  #C5BAAF;  
   color: #424B54;
@@ -142,61 +133,48 @@ nav ul.hide {display: none;}
 main {
   display: grid;
   grid-template-columns: repeat(5, 20%);
-  grid-template-rows: 6fr;
+  grid-template-rows: 10fr;
+
 }
+
+
+
+
 #bannerdiv {
-  gridi-template-area: 1 / 1 / 2 / 6;
-  width: 100%; 
- height: auto;
+  grid-area: 1 / 1 / 2 / 4;
+ 
+ 
+ #alerts {
  background-color: red;
- color: yellow;
- /*display: block;
- padding: 0 10px;
- margin: auto;
- position: relative;
- top: 200px; */
- /* box-shadow: 0 0 3px 0 black;
- border-radius: 3px; */
+ color: white;
 } 
 
  #weatherclear {
- float: right;
-  /* position: absolute;  */
- right: 9px;
- top: 0;
- background: yellow;
- color: black;
- font-size: 20px;
-} 
-
-.weatheralert {
-  position: absolute;
-  right: 0;
-  left: 0;
+  padding: 0 10px;
   margin: auto;
+  position: relative;
+  box-shadow: 0px 0px 3px 0px black;
+  border-radius: 3px;}
+  float: right; 
+ }
 
-} 
 
-.alert {
- padding: 20px;
- background-color: #f44336;
- color: white;
-}
 
-.closebtn {
- margin-left: 5%;
- color: white;
- font-weight: bold;
- /* float: right; */
- font-size: 22px;
- line-height: 20px;
- cursor: pointer;
- transition: 0.3s;
-}
+
 
 .closebtn:hover {
  color: black;
+} 
+
+
+
+
+div.threeday {
+  grid-area: 1 / 4 / 2 / 6;
+  background-color: white;
+  border: 2px solid black;
 }
+
 
 
 
@@ -205,27 +183,19 @@ main {
   grid-gap: 4px;
 }
 
-/* a:link {
-  color: #C5BAAF; 
-} */
+
 .introduction a:visited, a:hover, 
 .ads a:visited, a:hover {    color: #D5ACA9;   }
 a:active {  color: #B38D97; }
 
 
-
-
-
-
-
-
-section.ads {
+section.ads, section.history {
   grid-area: 3 / 1 / 6 / 6;
 }
 div.totalimage, .stylebyhanny, .civiccenter {
   border: 2px solid white;
-  /* max-width: 40%; */
-  padding: 10px;
+  /* max-width: 800px; */
+  padding: 7px;
 }
 
 .events {
@@ -236,30 +206,33 @@ div.totalimage, .stylebyhanny, .civiccenter {
   grid-area: 7 / 1 / 8 / 6;
   background-color: #D5ACA9; 
   color: #424B54;
-  padding: 5%;
+  padding: 5px;
 }
 
-section.threeday {
 
-  grid-template-columns: 2 4;
-  grid-template-rows: 8 9;
-  top: 40px;
-  margin-left: 50%;
-  bottom: 6%;
-  background: #B38D97; 
-  border: 1px solid white;
-  padding: 1.5rem;
 
-  /* box-shadow: 0 0 50px #777; */
-  max-width: 750px;
-  height: 150px;
-  
-  background-color: white;
-  border: 2px solid black;
-}
 table, th, td {
   border: 1px solid black;
 }
+
+section.history {
+  grid-area: 1 / 1 / 8 / 6;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 2%;
+}
+.history img {
+  max-width: 725px;
+  padding: 5px;
+}
+
+#membership {
+  grid-area:  1 / 1 / 7 / 6;
+  background-color: #C5BAAF;
+  color: #424B54;
+}
+
 
 
 /* footer */

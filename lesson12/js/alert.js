@@ -11,6 +11,7 @@ fetch(apiURL12b)
             document.getElementById('alerts').textContent = alerts[0].description;
        }  else {
           document.getElementById(target).style.display = 'none';
+          // document.getElementById(alerts).style.display = 'none';
        }
              
   });

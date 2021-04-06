@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    
-</head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page for Rochester Chamber website</title>
+     <meta name="description" content="Home Page for Rochester Chamber">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+     <link href="css/small.css" rel="stylesheet">
+     <link href="css/medium.css" rel="stylesheet">
+     <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ </head>
 
 <body>
+
 <header>
+    <div class="hero-image">
+    <picture><img src="images/rochesterlogo.png" alt="logo of Rochester Chamber of Commerce, 
+        a stethescope shaped like MN with a heart at Rochester"></picture>
+    <div class="headtext">
+    <h1>Rochester Chamber of Commerce</h1></div>
+    <div class="motto"><h2>Connecting Commerce and Community in Med City</h2></div>
+    </div>
+</header>
+
+   <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="../lesson12/homeindex.html">Home</a></li> 
+        <li class="active"><a href="../lesson12/rochestercity.html">Rochester</a></li>
+		<li><a href="../lesson12/join.html">Join</a></li>
+		<li><a href="../lesson12/directory.html">Directory</a></li>
+        <li><a href="../lesson12/contactus.html">Contact Us</a></li>
+    </ul>
+    </nav>
     
 
     <main>
-            <section class="History">
+        <section class="history">
+             <img src="images/cityhalllg800jpg.jpg" loading="lazy" alt="view of downtown Rochester"  sizes="100vw" 
+             srcset="images/cityhallsmall300.jpg 300w,
+             images/cityhallmed600.jpg 600w
+             images/cityhalllg800.jpg 800w">
+             </src>
             <h3>History of Rochester</h3>
             <p>The area developed as a stagecoach stop between Saint Paul, Minnesota, and Dubuque, Iowa near 
                 the Zumbro River. The community was founded by George Head and his wife Henrietta who built log 
@@ -17,64 +52,43 @@
                 When the Winona and St Peter Railroad initiated service in October 1864, it brought new residents 
                 and business opportunities and spurred growth. In 1863, Dr. William W. Mayo arrived as the examining 
                 surgeon for Union draftees in the Civil War. Rochester celebrated its sesquicentennial in 2004. (Wikipedia)
-            </p>
-            </section>
-            <section class="firstPersona">
-               
-                <h3>John Persona</h3>
-                <img src="images/Nate.png" alt="headshot of a 12yr old boy">
-                <p>
-                <b>Occupation:</b>  Student
-                <br><b>Demographics and Education:</b>  12 years old attending 7th grade at Preston Middle School.  Oldest of 4.  
-                <br>Delivers newspapers, mows lawns and shovels snow.
-                <br><b>Goals and motivation for using the site:</b>  Learn what to wear for school and appropriate weather for outdoor jobs.
-                <br><b>Social:</b> Very active individual, loves being outdoors with siblings and friends. Enjoys hikes, camping and collecting rocks.
-                <br><b>Technology:</b> Uses Kindle Fire.  Parents haven’t bought him his own phone yet, but he’s working on it.  He is saving up for one.  
-                He doesn’t get great cell reception everyplace in town, so he isn’t in too much of a hurry. Uses Microsoft Office for school and also 
-                knows how to search the internet for school projects.
-                <br><b>Quote:</b>  “I can’t wait till I am old enough to drive.”
-            </p>   
-            </section>
-            <section class="secondPersona">
-                <h3>Mary Persona</h3>
-                    <img src="images/Jen.png" alt="headshot of an adult woman">
-                   <p>
-                    <b>Occupation:</b>Grocery Store Cashier/Part-time Daycare/Seasonal Ranger
-                    <br><b>Demographics and Education:</b>  26 years old.  High school diploma, one semester of Jr. College. Grew up in Preston on a chicken farm.  
-                    Her fiancé is a chicken farmer.
-                    <br><b>Goals and motivation for using the site:</b>  Learn what to wear for work and appropriate weather and road conditions for drives 
-                    to Yellowstone.
-                    <br><b>Social:</b> Very active individual, loves being outdoors. Loves to take road trips to explore new places.  Enjoys hikes, camping, 
-                    canoeing and rock climbing. 
-                    <br><b>Technology:</b> Uses Dell laptop purchased online and smartphone. Has online accounts for work, insurance, banking, and social media. 
-                    Checks social media daily to keep in touch with friends and family.  Knows Microsoft office, Excel and PowerPoint.  
-                    <br><b>Quote:</b>  “I’d rather be outside. There’s always time for one more adventure.”
-                    </p>
-                </section>           
-           <section class="Scenarios">
-                <h3>Scenarios</h3>
-                <ol class="Scenarios">
-                <li>What should I wear to school (or work) today?</li>
+            <br><br>
+            Rochester is broadly known for the world-renowned Mayo Clinic, but you don't need to be checked-in 
+            to check out this extraordinary Minnesota destination. From arts to events, shopping, dining and 
+            breweries, use this visitors guide to find what to do, where to eat and where to stay when you're in 
+            Rochester.</p> <a href="https://www.exploreminnesota.com/southern-minnesota/rochester">Explore Minnesota</a><br>
+            <a href="https://www.experiencerochestermn.com/things-to-do/events-calendar/">Events Calendar</a>    
+            <img src="images/mayobldglg800jpg.jpg" loading="lazy" alt="view of downtown Rochester"  sizes="100vw" 
+             srcset="images/mayobldgsmall300.jpg 300w,
+             images/mayobldgmed600.jpg 600w
+             images/mayobldglg800.jpg 800w">
+             <img src="images/civicartlg800jpg.jpg" loading="lazy" alt="view of downtown Rochester"  sizes="100vw" 
+             srcset="images/civicartsmall300.jpg 300w,
+             images/civicartmed600.jpg 600w
+             images/civicartlg800.jpg 800w">
 
-                <li>What are the road conditions like in Preston (or other nearby cities)?</li>
-                
-                <li>What gear should I plan to bring on my hike?</li>
-                
-                <li>Is it a good idea to go camping this weekend?</li>
-                
-                <li>Will I need to give the chickens extra water or protection from a storm?</li>
-                </ol> 
-            </section> 
+
+        </section>
+            
     
     </main>
-       <footer>
-        <p>
-          &copy; <span id="copyrightYear"></span> | Annette Schuler | Minnesota |
-          <a class="linkcolor" href="https://www.byui.edu/online">BYUI Online Learning</a>
-        </p>
-        <div class="date">Last Updated: <span id="lastModified"></span></div>
-      </footer>
-       <script src="lesson3.js/datelastmodified.js"></script>
-       
- </body>
- </html>
+    <footer>
+        <a href="../lesson12/contactus.html"><h3>Contact Us</h3></a>
+            <p>123 Main Street, Rochester, MN  55901<br>507-555-5555<br>rochesterchamber.com</p>
+            <a href="https://www.facebook.com"><img src="images/fb.jpg" alt="facebook icon"></a> 
+            <a href="https://www.twitter.com"><img src="images/tw.jpg" alt="twitter icon"></a>
+            <p>          
+              &copy; <span id="copyrightYear"></span> | Annette Schuler | Minnesota |
+              <br>
+            </p>
+            <div class="date">Last Updated: <span id="lastModified"></span></div>
+            <a href="../lesson12/attributions.html">Attributions</a>
+            
+          </footer>
+          <script src="js/primarynav12.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+          <script src="js/webfrontload.js"></script>
+          <script src="js/datelastmodified.js"></script>
+             
+     </body>
+     </html>
