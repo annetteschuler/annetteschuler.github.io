@@ -234,6 +234,15 @@ section.history {
 }
 
 
+div.members section {
+  background-color: #d3bea8;
+  color: #424B54;
+  border: 3px solid #B38D97;
+  box-shadow: 5px 5px #B38D97;
+  grid-gap: .75rem;
+  margin-bottom: 25px;
+}
+
 
 /* footer */
 

@@ -1,0 +1,48 @@
+{
+    "members": [
+      {
+        "name": "The Berkman",
+        "address": "217 14th Ave. SW, Rochester, MN  55902",
+        "phone": "507-237-5626",
+        "website": "https://theberkman.com/"
+            },
+      {
+        "name": "Med City Taxi, LLC",
+        "address": "420 First Ave. NW, Rochester, MN  55901",
+        "phone": "507-282-8294",
+        "website": "http://www.medcitytaxi.com/"
+            },
+      {
+        "name": "Rochester Airport Company",
+        "address": "7600 Helgerson Dr. SW, Rochester, MN  55902",
+        "phone": "507-282-2328",
+        "website": "https://flyrst.com/"
+      },
+      {
+        "name": "Bleu Duck",
+        "address": "14 4th St. SW, Rochester, MN  55902",
+        "phone": "507-258-4663",
+        "website": "https://www.bleuduckkitchen.com/"
+      },
+      {
+        "name": "Nothing Bundt Cakes",
+        "address": "1161 6th St. NW, Ste 105, Rochester, MN  55901",
+        "phone": "507-200-4219",
+        "website": "https://www.nothingbundtcakes.com/"
+      },
+      {
+        "name": "La Quinta",
+        "address": "4353 Canal Place SE, Rochester, MN  55904",
+        "phone": "507-289-4200",
+        "website": "https://www.wyndhamhotels.com/laquinta"
+      },
+      {
+        "name": "Taco JED",
+        "address": "808 S. Broadway",
+        "phone": "507-258-9064",
+        "website": "https://www.tacojed.com/"
+        
+      }
+      
+    ]
+  }
