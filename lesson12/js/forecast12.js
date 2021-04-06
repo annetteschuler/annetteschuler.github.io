@@ -49,8 +49,8 @@ fetch(apiURL12)
            // build an array that includes only the 1800
   
   
-            // const forecast = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));  //filter 1800       
-            const forecast0Number = Number(jsObject.daily[0].temp.max);  //filter 1800 
+            // const forecast = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));        
+            const forecast0Number = Number(jsObject.daily[0].temp.max);  
             const forecast0 = Math.round(forecast0Number);   
             const forecast1Number = Number(jsObject.daily[1].temp.max);
             const forecast1 = Math.round(forecast1Number);
