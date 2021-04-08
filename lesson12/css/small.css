@@ -134,7 +134,10 @@ main {
 
 }
 
+.myMain {
+   display: inline;
 
+}
 
 
 #bannerdiv {
@@ -285,37 +288,59 @@ section.directory {
   grid-template columns: 1fr;
   grid-template-rows: 5fr;
 } */
-
-.directory h1 {
+h2.dirname {
   background-color: #D5ACA9;
   color: #424B54;
-  grid-area: 2 / 1 / 3 / 6;
-  margin: 0;
+  font-size: 1.75rem;
+  /* grid-area: 1 / 2/ 2 / 4; */
+  padding: 3px; 
+  
+}
+/* .directory h1 {
+   margin: 0;
   min-width: 200px;
    padding: 5px;  
-}
-
- .memberscards h2 {
+} */
+/* div.membercards {
+  grid-area: 2 / 2 / 4 / 3;
+} */
+ .memberscards h2{
   color: #424B54;
   margin-bottom: .5rem;
+
 } 
+.memberscards {
+  grid-template-columns: 1fr;
+  grid-column: 2 / 3;
+  grid-row: 2 / 7;
+}
+
+section.contact {
+  grid-area: 2 / 2 / 10 / 5;
 
 
+}
 
 /*contact us*/
-main section h1.board {
+#boardcontacts {
+   /* grid-area: 1 / 2 / 2 / 5;  */
    grid-area: 1 / 2 / 2 / 6; 
-   background-color: #B38D97;
-   color: #424B54;
+   padding: 5px;
 }
 
-main section div.boardlist ul li {
-    list-style-type: none; 
+
+div.boardlist ul li {
+    list-style-type: none;
+    grid-area: 2 / 1 / 10 / 6;  
   }
 
-section.boardlist {
-    grid-area: 2 / 1 / 10 / 6;
+ul#yourinfogrid {
+  list-style-type: none;
 }
+
+/* section.boardlist {
+    grid-area: 2 / 1 / 10 / 6;
+} */
 
 section.contact {
   grid-area: 11 / 1 / 12 / 6;

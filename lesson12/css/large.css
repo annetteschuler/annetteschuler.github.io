@@ -54,8 +54,8 @@ nav button {
 	/* nav ul li a (
 		padding: .6rem 1rem;
 	) */
-  .memberscards {
-    grid-template-columns: 1fr 1fr 1fr;
+  .myMain {
+    min-width: 1200px;
 
 }
 
