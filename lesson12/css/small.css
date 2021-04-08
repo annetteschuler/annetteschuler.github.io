@@ -247,7 +247,8 @@ section.directory {
   background-color: white;
   color: black;
   float: left;
-  width: 50%;
+  /* width: 50%; */
+  min-width: 320px;
   padding: 10px;
   border: 1px solid black;
   box-shadow: 15px 15px 15px; 
