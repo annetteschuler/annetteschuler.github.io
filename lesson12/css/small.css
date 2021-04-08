@@ -295,10 +295,10 @@ section.directory {
    padding: 5px;  
 }
 
-/* div.members h2 {
+ .memberscards h2 {
   color: #424B54;
   margin-bottom: .5rem;
-} */
+} 
 
 /* div.members {
   grid-area: 2 / 1 / 8 / 6;
