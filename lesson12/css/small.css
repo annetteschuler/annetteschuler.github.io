@@ -300,34 +300,22 @@ section.directory {
   margin-bottom: .5rem;
 } 
 
-/* div.members {
-  grid-area: 2 / 1 / 8 / 6;
-  background-color: white;
-  color: #424B54;
-  /* border: 3px solid #B38D97; */
-  /* width: 300px;
-  height: 1175px; 
-  box-shadow: 5px 5px #B38D97;
-  grid-gap: .75rem;
-  margin-bottom: 25px;
-  padding: .5rem;
-} */
-
-
-
 
 
 /*contact us*/
-main section.board {
-   grid-area: 1 / 2 / 2 / 5;
+main section h1.board {
+   grid-area: 1 / 2 / 2 / 6; 
    background-color: #B38D97;
    color: #424B54;
 }
 
-main div.boardlist ul li {
-   grid-area: 2 / 1 / 10 / 6;
-   list-style-type: none; 
+main section div.boardlist ul li {
+    list-style-type: none; 
   }
+
+section.boardlist {
+    grid-area: 2 / 1 / 10 / 6;
+}
 
 section.contact {
   grid-area: 11 / 1 / 12 / 6;
