@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page for Rochester Chamber website</title>
+     <meta name="description" content="Home Page for Rochester Chamber">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+     <link href="css/small.css" rel="stylesheet">
+     <link href="css/medium.css" rel="stylesheet">
+     <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ </head>
+
+<body>
+
+<header>
+    <div class="hero-image">
+    <picture><img src="images/rochesterlogo.png" alt="logo of Rochester Chamber of Commerce, 
+        a stethescope shaped like MN with a heart at Rochester"></picture>
+    <div class="headtext">
+    <h1>Rochester Chamber of Commerce</h1></div>
+    <div class="motto"><h2>Connecting Commerce and Community in Med City</h2></div>
+    </div>
+</header>
+
+   <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="../lesson12/homeindex.html">Home</a></li> 
+        <li><a href="../lesson12/rochestercity.html">Rochester</a></li>
+		<li><a href="../lesson12/join.html">Join</a></li>
+		<li class="active"><a href="../lesson12/directory.html">Directory</a></li>
+        <li><a href="../lesson12/contactus.html">Contact Us</a></li>
+    </ul>
+    </nav>
+    <main>
+        <section class="board">
+        <h1>Board of Directors</h1>
+       <ul> 
+        <li><h2>Lizzy Haywood*</h2><p>Board Chair, People's Food Cooperative</p></li>
+        <li><h2>Christy Blade*</h2><p>Vice Chair, Post Bulletin, LLC.</p></li>
+        <li><h2>Emily Benner*</h2><p>Secretary, Preventice</p></li>
+        <li><h2>James Kelly*</h2><p>Treasurer, Construction Partnership</p></li>
+        <li><h2>Laurie Ackerman</h2><p>Opportunity Services, C_Beech</p></li>
+        <li><h2>Christine Beech</h2><p>Kabara Institute for Entrepreneurial Studies</p></li>
+        <li><h2>Chad Behnken</h2><p>Chad Behnken, Hamilton Real Estate</p></li>
+        <li><h2>Aaron Benike</h2><p>Benike Construction</p></li>
+        <li><h2>Dr. Lori Carrell</h2><p>University of Minnesota Rochester</p></li>
+        <li><h2>Teresa-Czaplewski</h2><p>Teresa Czaplewski, Ranfranz & Vine Funeral Home</p></li>
+        <li><h2>Steve Dunn</h2><p>Taco JED</p></li>
+        <li><h2>John Eckerman</h2><p>RSP Architects</p></li>
+        <li><h2>Scott Eggert</h2><p>Broadway Plaza</p></li>
+        <li><h2>Jessica Eidem</h2><p>IBM Corporation</p></li>
+        <li><h2>Jessica Fraser</h2><p>Mayo Clinic</p></li>
+        <li><h2>Marge Kelley</h2><p>Express Employement Professionals</p></li>
+        <li><h2>Sarah Miller</h2><p>White Space, LLC</p></li>
+        <li><h2>Matt Morehead</h2><p>Carlson Capital Management</p></li>
+        <li><h2>AnJuanna Napue</h2><p>Mayo Clinic</p></li>
+        <li><h2>Dan Nistler</h2><p>Merchants Bank</p></li>
+        <li><h2>Nate Nordstrom</h2><p>BrandHoot</p></li>
+        <li><h2>Omar Nur</h2><p>Somalia Rebuild Organization</p></li>
+        <li><h2>Sylwia Bujak Oliver</h2><p>125 LIVE</p></li>
+        <li><h2>David Pederson</h2><p>Dunlap & Seeger, P.A.</p></li>
+        <li><h2>Jack Priggen</h2><p>Cardinal of MN, LTD.</p></li>
+        <li><h2>Joselyn Raymundo</h2><p>Rochester Home Infusion</p></li>
+        <li><h2>John Reed</h2><p>Rochester Airport, Co.</p></li>
+        <li><h2>Sharon Schneller</h2><p>Olmsted Medical Center</p></li>
+        </ul>
+        </section>
+        <section class="contact">
+            <fieldset>
+                <!-- this breaks up the form into sections      -->
+                <legend>Contact Us</legend>
+                <ul id="yourinfogrid">
+                <li><label class="top">Full Name* </label></li> <li><label><input type="text" name="first name" pattern="[A-Z a-z]{5,}" required></label></li>
+                <li><label class="top">Email* </label></li> <li><label><input type="email" name="email" placeholder="someone@gmail.com" required></label></li>
+                <li><label class="top">Phone</label></li> <li><label><input type="tel" name="phone" placeholder="1235551234"></label></li>
+                </ul>
+            </fieldset>
+
+            
+           
+            <fieldset>
+                <legend>Comments:</legend>
+                <label id="comments"> </label><br>
+                <textarea id="cid_3" class="form-input-view" name="businessDescription"
+                    data-component="textarea"></textarea>
+                <!-- <label id="comments" class="form-input-wide" data-layout="full"><input type="text" name="comment" value="text"> Please add comments below:</label>
+                    <textarea id="cid_3" class="form-input-view name="stormDescription" style="width:648;height:163px" data-compnent="textarea" aria-labelledby+"label_3"></textarea> -->
+            </fieldset>
+            <br>
+            <input type="submit" value="Contact Us" class="submitBtn" name="submitbutton">
+            <!-- think I want to... -->
+        </form>
+        </section>
+        <br>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d183694.93373333648!2d-92.62125599855239!3d43.99590197926035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f75f4ba35f2c4b%3A0xf0951c175661c63d!2sRochester%2C%20MN!5e0!3m2!1sen!2sus!4v1617726441513!5m2!1sen!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </main>
+    <footer>
+        <a href="../lesson12/contactus.html"><h3>Contact Us</h3></a>
+            <p>123 Main Street, Rochester, MN  55901<br>507-555-5555<br>rochesterchamber.com</p>
+            <a href="https://www.facebook.com"><img src="images/fb.jpg" alt="facebook icon"></a> 
+            <a href="https://www.twitter.com"><img src="images/tw.jpg" alt="twitter icon"></a>
+            <p>          
+              &copy; <span id="copyrightYear"></span> | Annette Schuler | Minnesota |
+              <br>
+            </p>
+            <div class="date">Last Updated: <span id="lastModified"></span></div>
+            <a href="../lesson12/attributions.html">Attributions</a>
+            
+          </footer>
+          <script src="js/primarynav12.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+          <script src="js/webfrontload.js"></script>
+          <script src="js/membership.js"></script>
+          <script src="js/datelastmodified.js"></script>
+          
+          
+     </body>
+     </html>

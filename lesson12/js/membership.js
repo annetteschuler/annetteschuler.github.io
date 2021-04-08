@@ -18,26 +18,34 @@ fetch(requestURL)                 //feed the required agrument
 // let image = document.createElement('img');
 
 let card = document.createElement('section');
+//card.classList.add('membercards');
+
 let h2 = document.createElement('h2');
 let name = document.createElement('p');
 let address = document.createElement('p');
 let phone = document.createElement('p');
-let website = document.createElement('p');
+let link = document.createElement('a');
 
 //adding content to each element
 
 h2.textContent = members[i].name;
 address.textContent = members[i].address;
 phone.textContent = members[i].phone;
-website.textContent = members[i].website;
+
 
 //add new elements to the page
 card.append(h2);
 card.append(name);
 card.append(address);
 card.append(phone);
-card.append(website);
 
-document.querySelector('div.members').append(card);
+linkUrl =  members[i].link;
+link.setAttribute('href', linkUrl);
+link.textContent = members[i].link;
+card.append(link);
+// card.append('<a href=${link}></a>');
+// card.append(str.link);
+
+document.querySelector('div.memberscards').append(card);
  };
 } );  

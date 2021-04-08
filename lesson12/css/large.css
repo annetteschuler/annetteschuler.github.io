@@ -17,8 +17,46 @@
 	nav a {
 		font-size: 1.1rem;
 	}
+	.clearfix {
+        margin-left: auto;
+        margin-right: auto;
+      }
+	
+    nav ul { 
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+nav a {
+font-size: 1rem;
+}
+
+nav button {
+    display: none;
+/*     get rid of button icon */
+  }
+  nav ul.hide {display: block;}
+/*   restores nav bar after js changed it */
+  /* nav ul li {
+    margin-left: 2%; */
+
+  nav ul li {
+    /* justify-content: center; */
+    float: left;
+    /* flex: auto; */
+ }
+  nav ul li a {
+  border: none;
+  /* border-right: 1px solid rgba(0,0,0,0.3); */
+  padding: .4rem 1.7rem;}
+/*   this fixes the style of the nav bar */
+
 	/* nav ul li a (
 		padding: .6rem 1rem;
 	) */
+  .memberscards {
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 }

@@ -4,6 +4,12 @@
             background-image: url(../images/headingcityhallmed600.jpg);
                   
        } 
+       .clearfix button {
+        margin-left: 7rem;
+      }
+
+      section.directory {
+        grid-template-columns: 1fr 1fr;
 /* 
        .clearfix {
         margin-left: auto;
