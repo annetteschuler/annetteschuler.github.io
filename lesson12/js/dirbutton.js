@@ -7,14 +7,14 @@ var i;
 // List View
 function listView() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.width = "200%";
+    elements[i].style.width = "500%";
   }
 }
 
 // Grid View
 function gridView() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.width = "50%";
+    elements[i].style.width = "300%";
   }
 }
 
