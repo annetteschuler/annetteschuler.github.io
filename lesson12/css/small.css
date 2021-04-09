@@ -115,7 +115,8 @@ nav ul li a {
   color: #424B54;
 }
 nav a:hover {
-  background-color: #D5ACA9;
+  /* background-color: #D5ACA9; */
+  background-color: #C5BAAF;
   color: #424B54; 
   align-items: stretch; 
 }
