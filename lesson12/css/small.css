@@ -106,12 +106,12 @@ nav ul li a {
   font-weight: bold;
 }
  .active {
-  background-color: #B38D97; 
+  background-color: white; 
   color: #424B54;  
 }
 
 .active a:hover {
-  background-color:  #C5BAAF;  
+  background-color:  white;  
   color: #424B54;
 }
 nav a:hover {
@@ -167,7 +167,9 @@ main {
 section.weathersummary {
   color: black;
 }
-
+section.weather {
+  color: black;
+}
 
 .threeday {
   grid-area: 1 / 4 / 2 / 6;
