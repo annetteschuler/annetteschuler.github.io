@@ -20,6 +20,11 @@
          grid-column: 2 / 10;
          grid-row: 2 / 5;
       }
+
+     #boardcontacts {
+         grid-area: 1 / 2 / 2 / 6; 
+        padding: 5px;
+     }
 /* 
        .clearfix {
         margin-left: auto;
@@ -54,6 +59,10 @@ nav button {
   /* border-right: 1px solid rgba(0,0,0,0.3); */
   /* padding: .4rem 1.7rem;}
   this fixes the style of the nav bar  */ 
+
+  iframe {
+    width: 600px;
+  }
 
 
 footer {
