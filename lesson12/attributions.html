@@ -1,23 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page for Rochester Chamber website</title>
+     <meta name="description" content="Home Page for Rochester Chamber">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+     <link href="css/small.css" rel="stylesheet">
+     <link href="css/medium.css" rel="stylesheet">
+     <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-<body>
-    <header></header>
-
+    <body>
+        <header>
+            <div class="hero-image">
+            <picture><img src="images/rochesterlogo.png" alt="logo of Rochester Chamber of Commerce, 
+                a stethescope shaped like MN with a heart at Rochester"></picture>
+            <div class="headtext">
+            <h1>Rochester Chamber of Commerce</h1></div>
+            <div class="motto"><h2>Connecting Commerce and Community in Med City</h2></div>
+            </div>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="../lesson12/homeindex.html">Home</a></li> 
+                <li><a href="../lesson12/rochestercity.html">Rochester</a></li>
+                <li><a href="../lesson12/join.html">Join</a></li>
+                <li><a href="../lesson12/directory.html">Directory</a></li>
+                <li><a href="../lesson12/contactus.html">Contact Us</a></li>
+            </ul>
+            </nav>
+    <section class="attributions">   
+      <table class="attributions">     
     <h1>Attributions</h1>
-    <p>Photographs:  Annette Schuler</p>
-    <p>Chamber of Commerce definition:</p> <a href="https://www.surpriseregionalchamber.com/what-is-a-chamber.html#:~:text=A%20chamber%20of%20commerce%20is,%2C%20region%2C%20state%20or%20nation.">surpriseregionalchamber</a>
-    <p>City of Rochester History:</p> <a href="https://en.wikipedia.org/wiki/Rochester,_Minnesota#:~:text=The%20community%20was%20founded%20by,business%20opportunities%20and%20spurred%20growth.">Wikipedia</a>
-    <p>Events Calendar</p> <a href="https://www.experiencerochestermn.com/things-to-do/events-calendar/">Experience Rochester</a>
-    <p>Explore Minnesota</p> <a href="https://www.exploreminnesota.com/southern-minnesota/rochester">Explore Minnesota</a>
-    <p>Board of Directors for City of Rochester Chamber of Commerce</p><a href="https://www.rochestermnchamber.com/about/board-of-directors/">Chamber of Commerce</a>
-    <p>View List or Grid View</p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_list_grid_view">w3schools</a>
-</body>
+    <tr><th>Information</th><th>Source</th></tr> 
+    <tr><td>Photographs</td><td>Annette Schuler</td></tr>
+    <tr><td>Chamber of Commerce definition:</td> <td><a href="https://www.surpriseregionalchamber.com/what-is-a-chamber.html#:~:text=A%20chamber%20of%20commerce%20is,%2C%20region%2C%20state%20or%20nation.">surpriseregionalchamber</a></td></tr>
+    <tr><td>City of Rochester History:</td><td><a href="https://en.wikipedia.org/wiki/Rochester,_Minnesota#:~:text=The%20community%20was%20founded%20by,business%20opportunities%20and%20spurred%20growth.">Wikipedia</a></td></tr>
+    <tr><td>Events Calendar</td> <td><a href="https://www.experiencerochestermn.com/things-to-do/events-calendar/">Experience Rochester</a></td></tr>
+    <tr><td>Explore Minnesota</td> <td><a href="https://www.exploreminnesota.com/southern-minnesota/rochester">Explore Minnesota</a></td></tr>
+    <tr><td>Board of Directors for City of Rochester Chamber of Commerce</td><td><a href="https://www.rochestermnchamber.com/about/board-of-directors/">Chamber of Commerce</a></td></tr>
+    <tr><td>View List or Grid View</td><td><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_list_grid_view">w3schools</a></td></tr>
+     </table>   
+  </section> 
+  </body>
 
 <footer>
     <a href="../lesson12/contactus.html"><h3>Contact Us</h3></a>

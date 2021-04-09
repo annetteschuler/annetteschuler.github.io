@@ -5,10 +5,6 @@
 		 background-image: url(../images/headingcityhalllg760.jpg);
 		 /* min-width: 760px; */
 	} 
-	/* body {
-		min-width: 760px;
-	} */
-
     nav ul { 
         display: flex;
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
