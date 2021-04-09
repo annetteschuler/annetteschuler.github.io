@@ -172,7 +172,7 @@ section.weather {
 .threeday {
   grid-area: 1 / 4 / 2 / 6;
   background-color: white;
-  color: black;
+  /* color: black; */
   border: 2px solid black;
 }
 
