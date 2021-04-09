@@ -143,6 +143,7 @@ main {
 
 #bannerdiv {
   grid-area: 1 / 1 / 2 / 4;
+  color: white;
 } 
  
  #alerts {
@@ -163,12 +164,15 @@ main {
  color: black;
 } 
 
-
+section.weather {
+  color: white;
+}
 
 
 .threeday {
   grid-area: 1 / 4 / 2 / 6;
   background-color: white;
+  color: black;
   border: 2px solid black;
 }
 
