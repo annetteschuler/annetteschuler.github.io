@@ -53,6 +53,7 @@ header img {
 }
 
 .motto h2 {
+  background-color: #424B54;
   font-size: 1em;
   padding-top: 0;
 }
@@ -180,8 +181,9 @@ main {
 }
 
 
+
 .introduction a:visited, a:hover, 
-.ads a:visited, a:hover {    color: #D5ACA9;   }
+.ads a:visited, a:hover {    color: white;   }
 a:active {  color: #B38D97; }
 
 
