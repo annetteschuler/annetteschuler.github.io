@@ -346,6 +346,8 @@ iframe {
 .attributions {
   background-color: white;
   color: black;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 /* footer */
